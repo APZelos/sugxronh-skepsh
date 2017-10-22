@@ -108,9 +108,9 @@
 }
 
 @media all and(min-width: 1001px) {
-	.header {
-		width: 980px;
-		margin: auto;
+    .header {
+        width: 95%;
+        margin: auto;
     }
     
 	.header-selectors-wrapper {
@@ -164,94 +164,95 @@
 		vertical-align: middle;
 		font-size: 0;
     }
-    
-	.header-menu {
-		position: relative;
-		z-index: 5;
-		width: 980px;
-		margin: 0 auto 30px;
-		border-top: 1px solid $border_color;
-		border-bottom: 1px solid $border_color;
-		padding: 25px 0;
+
+    .header-menu {
+        position: relative;
+        z-index: 5;
+        width: 95%;
+        margin: 0 auto 30px;
+        border-top: 1px solid $border_color;
+        border-bottom: 1px solid $border_color;
+        padding: 25px 0;
         text-align: center;
-        
-		> ul {
-			display: block !important;
+
+        > ul {
+            display: block !important;
             font-size: 0;
-            
-			&.mobile {
-				display: none !important;
+
+            &.mobile {
+                display: none !important;
             }
-            
-			> li {
-				display: inline-block;
-				border-left: 1px solid $border_color;
-				padding: 0 15px;
+
+            > li {
+                display: inline-block;
+                border-left: 1px solid $border_color;
+                padding: 0 15px;
                 vertical-align: middle;
-                
-				&:first-child {
-					border-left: none;
+
+                &:first-child {
+                    border-left: none;
                 }
-                
-				> a {
-					display: block;
-					padding: 5px 10px;
-					line-height: 20px;
-					font-size: $font_size--l;;
-					color: $font_color;
-                    cursor: pointer;
-                    
-					&:hover {
-						color: $color_main;
-					}
-				}
-			}
-        }
-        
-		.sublist {
-			display: none;
-			position: absolute;
-			width: 200px;
-			box-shadow: 0 0 2px $color_shadow;
-			background-color: $white;
-			padding: 10px 0;
-            text-align: left;
-            
-			li {
-                position: relative;
-                
-				a {
-					display: block;
-					position: relative;
-					padding: 10px 20px 10px 30px;
-					font-size: $font_size--xs;
+
+                > a {
+                    display: block;
+                    padding: 5px 10px;
+                    line-height: 20px;
+                    font-size: $font_size--l;
+                    ;
                     color: $font_color;
-                    
-					&:before {
-						content: "";
-						position: absolute;
-						top: 17px;
-						left: 15px;
-						width: 5px;
-						height: 5px;
-						background-color: $border_color;
-					}
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $color_main;
+                    }
                 }
-                
-				&:hover > a {
-					background-color: $color_black_haze_approx;
-				}
             }
-            
-			.sublist {
-				top: -10px;
-				left: 100% !important;
-			}
         }
-        
-		ul li:hover > .sublist {
-			display: block;
-		}
+
+        .sublist {
+            display: none;
+            position: absolute;
+            width: 200px;
+            box-shadow: 0 0 2px $color_shadow;
+            background-color: $white;
+            padding: 10px 0;
+            text-align: left;
+
+            li {
+                position: relative;
+
+                a {
+                    display: block;
+                    position: relative;
+                    padding: 10px 20px 10px 30px;
+                    font-size: $font_size--xs;
+                    color: $font_color;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        top: 17px;
+                        left: 15px;
+                        width: 5px;
+                        height: 5px;
+                        background-color: $border_color;
+                    }
+                }
+
+                &:hover > a {
+                    background-color: $color_black_haze_approx;
+                }
+            }
+
+            .sublist {
+                top: -10px;
+                left: 100% !important;
+            }
+        }
+
+        ul li:hover > .sublist {
+            display: block;
+        }
     }
     
 	.header-upper:after {
@@ -264,22 +265,24 @@
 @media all and(min-width: 1367px) {
 
 	.header {
-		width: 1200px;
+		width: 95%;
     }
-    
-	.header-menu {
-        width: 1200px;
-        
-		> ul > li {
+
+    .header-menu {
+        width: 95%;
+
+        > ul > li {
             padding: 0 20px;
-            
-			> a {
-				font-size: $font_size--xl;;
+
+            > a {
+                font-size: $font_size--xl;
+                ;
             }
-            
-			> span {
-				font-size: $font_size--xl;;
-			}
-		}
+
+            > span {
+                font-size: $font_size--xl;
+                ;
+            }
+        }
     }
 }

@@ -111,15 +111,15 @@
 
 @media all and(min-width: 1001px) {
 
-	.footer-upper {
-		width: 980px;
+    .footer-upper {
+        width: 95%;
         padding: 35px 10px;
-        
-		&:after {
-			content: "";
-			display: block;
-			clear: both;
-		}
+
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
     }
     
 	.footer-block {
@@ -134,17 +134,17 @@
 			margin: 0;
 		}
     }
-    
-	.footer-lower {
-		position: relative;
-		width: 980px;
+
+    .footer-lower {
+        position: relative;
+        width: 95%;
         padding: 25px 5px;
-        
-		&:after {
-			content: "";
-			display: block;
-			clear: both;
-		}
+
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
     }
     
 	.footer-info {
@@ -160,17 +160,17 @@
 }
 
 @media all and(min-width: 1367px) {
-	.footer-upper {
-		width: 1200px;
-		padding: 35px 30px;
+    .footer-upper {
+        width: 95%;
+        padding: 35px 30px;
     }
     
 	.footer-block {
 		width: 280px;
     }
-    
-	.footer-lower {
-		width: 1200px;
-		padding: 25px 20px;
+
+    .footer-lower {
+        width: 95%;
+        padding: 25px 20px;
     }
 }
