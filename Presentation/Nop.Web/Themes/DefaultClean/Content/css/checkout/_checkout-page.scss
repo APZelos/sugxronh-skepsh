@@ -1,0 +1,133 @@
+.checkout-page {
+
+	.section {
+		margin: 0 0 30px;
+
+		&.order-summary {
+			margin: 100px 0 30px;
+		}
+	}
+
+	.cart-options {
+		min-height: 60px;
+		overflow: hidden;
+	}
+
+	.cart-footer {
+		border-top: none;
+	}
+
+	.total-info {
+		margin: 0;
+		border-bottom: none;
+		padding: 5px 20px 10px;
+	}
+
+	.button-1 {
+		display: inline-block;
+		min-width: 140px;
+		border: none;
+		background-color: $color_main;
+		padding: 10px 30px;
+		text-align: center;
+		font-size: $font_size--s;
+		color: $white;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: $color_main--active;
+		}
+	}
+
+	.address-item {
+		width: 350px;
+		max-width: 100%;
+		margin: 0 auto 40px;
+
+		ul {
+			margin: 0 0 15px;
+			background-color: $color_alabaster_approx;
+			padding: 20px;
+			color: $font_color;
+		}
+
+		li {
+			padding: 5px 0;
+
+			&.name {
+				font-size: $font_size--m;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.ship-to-same-address {
+		padding: 30px 0;
+		text-align: center;
+
+		.selector {
+			margin: 0 0 5px;
+			font-weight: bold;
+			color: $font_color;
+		}
+	}
+
+	.pickup-in-store {
+		text-align: center;
+
+		.selector {
+			margin: 0 0 5px;
+			font-weight: bold;
+			color: $font_color;
+		}
+	}
+
+	.pickup-points-map {
+		min-width: 400px;
+		min-height: 350px;
+		vertical-align: middle;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}
+
+
+@media all and(min-width: 769px) {
+	
+	.checkout-page {
+		
+		.selected-checkout-attributes {
+			float: right;
+			text-align: right;
+		}
+
+		.address-grid {
+			overflow: hidden;
+		}
+
+		.address-item {
+			float: left;
+			width: 48%;
+			margin: 0 1% 40px;
+		}
+
+		.cart-footer .totals {
+			max-width: 350px;
+			margin: 0;
+		}
+	}
+}
+
+@media all and(min-width: 1001px) {
+	
+	.checkout-page {
+
+		.address-item {
+			width: 31.33333%;
+		}
+		
+		.terms-of-service {
+			text-align: center;
+		}
+	}
+}

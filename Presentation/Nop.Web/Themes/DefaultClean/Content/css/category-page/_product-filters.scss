@@ -1,0 +1,148 @@
+.product-filters {
+	display: table;
+	width: 100%;
+	margin: -20px 0 20px;
+	border-bottom: 1px solid $border_color;
+}
+
+.product-filter {
+  margin: 0 0 10px;
+  
+	.filter-title {
+		margin: 0 0 10px;
+		background-color: $color_black_haze_approx;
+		padding: 10px;
+		font-size: $font_size--l;
+    color: $font_color;
+    
+		strong {
+			font-weight: normal;
+		}
+  }
+  
+	.filter-content {
+		padding: 10px;
+		color: $font_color;
+  }
+  
+	.group {
+    margin: 0 0 10px;
+    
+		li {
+      font-size: $font_size--s;
+      
+			a {
+				display: inline-block;
+        padding: 5px 0;
+        
+				&:hover {
+					color: $color_main;
+				}
+      }
+      
+			strong {
+				display: inline-block;
+				padding: 5px 0;
+      }
+      
+			&.item {
+				display: inline-block;
+				position: relative;
+				margin: 0 15px 0 0;
+        padding: 0 0 0 15px;
+        
+				&:before {
+					content: "";
+					position: absolute;
+					top: 12px;
+					left: 0;
+					width: 5px;
+					height: 5px;
+					background-color: $border_color;
+				}
+      }
+      
+			&.color-item {
+				padding: 0;
+        display: inline-block;
+        
+				a {
+					padding: 0;
+        }
+        
+				&:before {
+					display: none;
+				}
+			}
+		}
+  }
+  
+	.available-items:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+.filtered-items {
+
+	.title {
+		margin: 0 0 5px;
+		font-style: italic;
+  }
+  
+	.item {
+		color: $color_main;
+	}
+}
+
+.remove-filter {
+  margin: 15px 0;
+  
+	a {
+		display: inline-block;
+		background-color: $color_silver_chalice_approx;
+		padding: 10px 20px;
+		font-size: $font_size--xxs;
+		color: $white;
+    text-transform: uppercase;
+    
+		&:hover {
+			background-color: $color_mountain_mist_approx;
+		}
+	}
+}
+
+@media all and(min-width: 481px) {
+
+	.product-filter {
+		display: table-cell;
+		vertical-align: top;
+    text-align: left;
+    
+		&.price-range-filter {
+			width: 200px;
+    }
+    
+		.product-spec-group {
+			float: left;
+      margin: 0 25px 10px 0;
+      
+			&.product-spec-color {
+				max-width: 190px;
+			}
+    }
+    
+		.group li {
+
+			&.item {
+				display: block;
+				margin: 0;
+      }
+      
+			&.color-item {
+				display: inline-block;
+			}
+		}
+  }
+}

@@ -1,0 +1,23 @@
+.tier-prices {
+  margin: 0 0 20px;
+  
+	.title {
+		display: none;
+  }
+  
+	.field-header {
+		min-width: 80px;
+  }
+  
+	.item-price {
+		background-color: $color_alabaster_approx;
+		font-size: $font_size--m;
+		color: $color_error;
+  }
+  
+	table td {
+		border: 1px solid $border_color;
+		padding: 10px;
+		color: $font_color;
+	}
+}

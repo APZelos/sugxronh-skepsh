@@ -1,0 +1,65 @@
+
+.order-review-data,
+.order-details-area {
+
+	.payment-method-info {
+		margin-top: 20px;
+	}
+
+	.shipping-method-info {
+		margin-top: 20px;
+	}
+}
+
+.order-review-data,
+.order-details-area,
+.shipment-details-area {
+
+	> div {
+		width: 350px;
+		max-width: 100%;
+		margin: 0 auto 40px;
+		background-color: $color_alabaster_approx;
+		padding: 20px;
+		color: $font_color;
+	}
+
+	li {
+		padding: 3px 0;
+	}
+
+	.title {
+		margin: 0 0 5px;
+		padding: 0;
+		font-size: $font_size--m;
+		font-weight: bold;
+
+		strong {
+			font-weight: 700;
+		}
+	}
+}
+
+@media all and(min-width: 769px) {
+
+	.order-review-data,
+	.order-details-area,
+	.shipment-details-area {
+		overflow: hidden;
+
+		> div {
+			float: left;
+			width: 48%;
+			margin: 0 1% 40px;
+		}
+	}
+}
+
+@media all and(min-width: 1001px) {
+	
+	.order-review-data .title,
+	.order-details-area .title,
+	.shipment-details-area .title {
+		text-align: left;
+	}
+}

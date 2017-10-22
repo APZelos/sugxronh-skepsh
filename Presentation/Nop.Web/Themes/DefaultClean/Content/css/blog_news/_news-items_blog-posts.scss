@@ -1,0 +1,61 @@
+.news-items,
+.blog-posts {
+
+	.buttons {
+		margin: 0;
+		padding: 0 10px;
+
+		.read-more {
+			display: inline-block;
+			border: none;
+			background-color: $color_main;
+			padding: 10px 20px;
+			font-size: $font_size--xxxs;
+			color: $white;
+			text-transform: uppercase;
+
+			&:hover {
+				background-color: $color_main--active;
+			}
+		}
+	}
+}
+
+.news-items {
+
+	.news-item {
+		margin: 0 0 30px;
+	}
+}
+
+.blog-posts .buttons {
+	
+	.read-comments {
+		display: block;
+		margin: 0 0 15px;
+		font-weight: bold;
+		color: $font_color;
+
+		&:hover {
+			color: $color_main;
+		}
+	}
+}
+
+@media all and(min-width: 769px) {
+	
+	.blog-posts {
+
+		.tags {
+			float: right;
+			width: 80%;
+			text-align: right;
+		}
+		
+		.buttons {
+			float: left;
+			width: 20%;
+			text-align: left;
+		}
+	}
+}

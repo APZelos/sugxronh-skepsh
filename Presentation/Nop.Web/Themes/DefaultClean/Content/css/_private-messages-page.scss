@@ -1,0 +1,85 @@
+
+.private-messages-page {
+
+	.buttons {
+    font-size: 0;
+    
+    .button-1,
+    .button-2 {
+      display: block;
+      width: 250px;
+      margin: 0 auto 3px;
+      font-size: $font_size--s;
+		}
+	}
+}
+
+.private-messages-page {
+	.table-wrapper {
+		margin: 0 0 30px;
+  }
+  
+	td {
+
+		&.from {
+			min-width: 150px;
+    }
+    
+		&.to {
+			min-width: 150px;
+    }
+    
+		&.subject {
+      min-width: 150px;
+      
+			a {
+        color: $font_color;
+        
+				&.pm-unread {
+					color: $color_main;
+				}
+			}
+    }
+    
+		&.date {
+			white-space: nowrap;
+		}
+  }
+  
+	.pager {
+		margin: 0 0 30px;
+  }
+  
+	th.select {
+		text-align: center;
+	}
+}
+
+.private-message-view-page {
+
+	.view-message {
+		margin: 0 0 30px;
+		margin: 0 0 30px;
+  }
+  
+	.message-head {
+		margin: 0 0 20px;
+		line-height: 22px;
+		span {
+			font-weight: bold;
+			color: $font_color;
+		}
+  }
+  
+	.message-body {
+		border-top: 1px solid $border_color;
+		background-color: $color_alabaster_approx;
+		padding: 30px 20px;
+		line-height: 22px;
+		text-align: justify;
+  }
+  
+	.back-pm-button {
+		text-transform: capitalize !important;
+	}
+}

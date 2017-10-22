@@ -1,0 +1,10 @@
+.comment-body {
+	line-height: 22px;
+}
+
+@media all and(min-width: 769px) {
+	
+	.comment-body {
+		padding: 20px;
+	}
+}

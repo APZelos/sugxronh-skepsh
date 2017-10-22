@@ -1,0 +1,13 @@
+.post-title,
+.news-title {
+	display: inline-block;
+	padding: 20px 10px;
+	line-height: 20px;
+	font-size: $font_size--m;
+	font-weight: bold;
+	color: $font_color;
+
+	&:hover {
+		color: $color_main;
+	}
+}

@@ -1,0 +1,13 @@
+.product-details-page {
+	padding: 20px 0 0;
+}
+
+@media all and(min-width: 1001px) {
+
+	.product-details-page {
+    
+		.title {
+			text-align: left;
+		}
+	}
+}

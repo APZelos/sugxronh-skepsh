@@ -1,0 +1,23 @@
+.recurring-payments {
+
+	.button-2 {
+		font-size: $font_size--xs;
+  }
+  
+	table td {
+    white-space: nowrap;
+    
+		&:first-child {
+			min-width: 120px;
+			white-space: normal;
+		}
+	}
+}
+
+@media all and(min-width: 769px) {
+
+	.recurring-payments {
+		width: 100% !important;
+		margin: 20px 0 !important;
+	}
+}

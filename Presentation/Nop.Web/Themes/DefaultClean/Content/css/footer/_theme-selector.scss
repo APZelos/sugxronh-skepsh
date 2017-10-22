@@ -1,0 +1,15 @@
+.theme-selector {
+    margin: 10px 0 0;
+    
+	select {
+		width: 170px;
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	.theme-selector {
+		float: left;
+		margin: 0 0 0 15px;
+	}
+}

@@ -1,0 +1,134 @@
+.forum-edit-page,
+.move-topic-page,
+.private-message-send-page {
+  
+  .page-title {
+    margin: 0 0 -1px;
+  }
+
+	.buttons {
+    
+    input {
+      min-width: 140px;
+      border: none;
+      background-color: $color_mountain_mist_approx;
+      padding: 10px 30px;
+      text-align: center;
+      font-size: $font_size--s;
+      color: $white;
+      text-transform: uppercase;
+      
+      &:hover {
+        background-color: $color_suva_gray_approx;
+      }
+    }
+    
+    .button-1 {
+      background-color: $color_main;
+      
+      &:hover {
+        background-color: $color_main--active;
+      }
+    }
+  }
+}
+
+.forum-edit-page,
+.private-message-send-page {
+
+	.message-error {
+		margin: 20px 0;
+	}
+  
+	.bb-code-editor-wrapper {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: $border_color;
+    padding: 10px;
+  }
+  
+	textarea {
+		display: block;
+		margin: auto;
+  }
+  
+	.toolbar .button {
+    margin: 0 2px 0 0;
+    border: $color_soft_amber_approx 1px solid;
+    padding: 2px;
+    
+		&:hover {
+			border: $border_color--active 1px solid;
+		}
+	}
+}
+
+.forum-edit-page {
+  
+	.inputs {
+
+		strong {
+			display: inline-block;
+			max-width: 400px;
+			font-size: $font_size--xxxl;
+			font-weight: normal;
+			color: $font_color;
+			white-space: normal;
+    }
+    
+		.topic-subject {
+			font-size: $font_size--l;
+    }
+    
+		&.reversed {
+      margin: 0;
+      
+			label {
+				width: auto;
+				margin: 5px;
+				font-size: $font_size--xs;
+				white-space: normal;
+			}
+		}
+  }
+}
+
+.move-topic-page {
+  
+	label {
+		white-space: normal;
+  }
+}
+
+.private-message-send-page {
+  
+	a {
+		font-size: $font_size--xs;
+		color: $color_main;
+  }
+  
+	span {
+		font-size: $font_size--xs;
+	}
+}
+
+@media all and(min-width: 1001px) {
+  
+	.forum-edit-page,
+	.private-message-send-page { 
+    textarea {
+      width: 600px;
+      height: 250px;
+    }
+  }
+  
+	.private-message-send-page {
+    
+		.bb-code-editor-wrapper {
+			display: inline-block;
+			width: 400px;
+			margin: 10px 0;
+			vertical-align: middle;
+		}
+	}
+}

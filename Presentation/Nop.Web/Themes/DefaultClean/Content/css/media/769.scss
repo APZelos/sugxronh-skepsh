@@ -1,0 +1,43 @@
+
+@media all and(min-width: 769px) {
+	.variant-picture {
+		float: left;
+		+ .variant-overview {
+			width: auto;
+			margin: 0 0 0 240px;
+		}
+	}
+	.cart-options {
+		.common-buttons {
+			text-align: right;
+		}
+		.checkout-attributes {
+			padding: 0 10px;
+		}
+		.selected-checkout-attributes {
+			padding: 0 10px;
+		}
+	}
+	.comment-content {
+		display: table-cell;
+		width: 85%;
+		border-left: 1px solid $border_color;
+		vertical-align: top;
+		text-align: left;
+	}
+	.topic-posts {
+		margin: 0 0 30px;
+	}
+	.ui-tabs-nav {
+		text-align: left;
+		li {
+			margin: 0 10px -1px 0 !important;
+		}
+	}
+	.payment-info .info {
+		padding: 30px 75px;
+	}
+	.shipment-details-page .tracking-number .tracking-url {
+		color: $color_main;
+	}
+}

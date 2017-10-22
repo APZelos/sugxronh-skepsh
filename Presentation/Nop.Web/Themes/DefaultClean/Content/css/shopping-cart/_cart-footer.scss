@@ -1,0 +1,139 @@
+.cart-footer {
+	margin: 0 0 50px;
+	border-top: 1px solid $border_color;
+
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.totals {
+		width: 350px;
+		max-width: 100%;
+		margin: 0 auto 50px;
+		background-color: $color_alabaster_approx;
+		padding: 10px;
+		color: $font_color;
+	}
+
+	.total-info {
+		margin: 0 0 20px;
+		border-bottom: 1px solid $border_color;
+		padding: 5px 30px 15px;
+	}
+
+	.checkout-buttons {
+		padding: 0 10px;
+	}
+
+	.checkout-button {
+		display: inline-block;
+		min-width: 160px;
+		border: none;
+		background-color: $color_main;
+		padding: 10px 20px;
+		font-size: $font_size--m;
+		color: $white;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: $color_main--active;
+		}
+	}
+
+	.addon-buttons {
+		margin: 20px 0 0;
+		padding: 0 10px;
+	}
+}
+
+@media all and(min-width: 769px) {
+	
+	.cart-footer {
+
+		.totals {
+			float: right;
+			width: 45%;
+			margin: 0 2.5%;
+		}
+
+		.terms-of-service {
+			text-align: left;
+		}
+
+		.checkout-buttons {
+			text-align: right;
+		}
+
+		.addon-buttons {
+			text-align: right;
+		}
+
+		.cart-collaterals {
+			float: left;
+			width: 45%;
+			margin: 0 2.5%;
+			div {
+				text-align: left;
+			}
+			label {
+				text-align: left;
+			}
+		}
+
+		.estimate-shipping {
+
+			label {
+				display: block;
+				margin: 0 0 10px;
+			}
+
+			.buttons {
+				text-align: right;
+			}
+		}
+	}
+}
+
+@media all and(min-width: 1367px) {
+
+	.cart-footer {
+
+		.totals {
+			width: 395px;
+			margin: 0;
+		}
+
+		.cart-collaterals {
+			width: 760px;
+			margin: 0;
+
+			.deals {
+				float: left;
+				width: 360px;
+			}
+
+			.shipping {
+				float: right;
+				width: 360px;
+			}
+		}
+
+		.estimate-shipping .inputs {
+
+			label {
+				display: inline-block;
+				width: 35%;
+			}
+
+			input {
+				width: 65%;
+			}
+			
+			select {
+				width: 65%;
+			}
+		}
+	}
+}

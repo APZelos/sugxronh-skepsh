@@ -1,0 +1,34 @@
+.search-input {
+
+	.fieldset {
+		margin: 0 0 30px;
+	}
+
+	.form-fields {
+		padding: 30px 15px 10px;
+	}
+
+	.buttons {
+		text-align: center;
+	}
+
+	.button-1 {
+		min-width: 140px;
+		border: none;
+		background-color: $color_main;
+		padding: 10px 30px;
+		text-align: center;
+		font-size: $font_size--s;
+		color: $white;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: $color_main--active;
+		}
+	}
+	
+	input + label {
+		display: inline;
+		margin: 0 0 0 5px;
+	}
+}

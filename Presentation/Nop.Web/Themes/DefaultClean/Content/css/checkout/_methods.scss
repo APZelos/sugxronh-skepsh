@@ -1,0 +1,104 @@
+.shipping-method,
+.payment-method {
+	.method-list {
+		margin: 0 auto 30px;
+		overflow: hidden;
+		text-align: center;
+		font-size: 0;
+
+		li {
+			margin: 20px 0;
+			font-size: $font_size--xs;
+
+			label {
+			font-size: $font_size--xxs;
+			font-weight: bold;
+			color: $font_color;
+			}
+		}
+	}
+}
+
+.shipping-method {
+	
+	.method-description {
+		margin: 5px 0 0;
+	}
+}
+
+.payment-method {
+
+	.use-reward-points {
+		margin: 0 0 30px;
+		text-align: center;
+		color: $font_color;
+	}
+
+	.payment-logo {
+		display: inline-block;
+		vertical-align: middle;
+
+		label {
+			display: block;
+			font-size: 0 !important;
+		}
+	}
+
+	.payment-details {
+		min-width: 180px;
+		display: inline-block;
+		margin: 0 0 0 10px;
+		text-align: left;
+		vertical-align: middle;
+	}
+}
+
+@media all and(min-width: 769px) {
+	
+	.shipping-method {
+
+		.method-name {
+			background-color: $color_black_haze_approx;
+			padding: 10px;
+		}
+
+		.method-list li {
+			display: inline-block;
+			width: 25%;
+			margin: 20px 2%;
+			vertical-align: top;
+		}
+	}
+
+	.payment-method {
+
+		.payment-logo {
+			display: block;
+			background-color: $color_black_haze_approx;
+			padding: 10px;
+		}
+
+		.payment-details {
+			display: block;
+			width: auto;
+			min-width: 0;
+			margin: 10px 0 0;
+			text-align: center;
+		}
+
+		.method-list li {
+			display: inline-block;
+			width: 25%;
+			margin: 20px 2%;
+			vertical-align: top;
+		}
+	}
+}
+
+@media all and(min-width: 1367px) {
+	
+	.shipping-method .method-list li,
+	.payment-method .method-list li {
+		margin: 20px 1%;
+	}
+}

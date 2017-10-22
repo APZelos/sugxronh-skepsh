@@ -1,0 +1,82 @@
+
+@media all and(max-width: 1000px) {
+
+	.menu-toggle {
+		background: $color_main $menu-icon right center no-repeat;
+		padding: 15px;
+		font-size: $font_size--s;;
+		font-weight: bold;
+		color: $white;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.top-menu {
+		display: none;
+
+		> li {
+			position: relative;
+			margin: 1px 0;
+			background-color: $color_black_haze_approx;
+			
+			> a {
+				display: block;
+				min-height: 55px;
+				padding: 18px;
+				font-size: $font_size--s;;
+				color: $font_color;
+			}
+		}
+
+		.sublist {
+			display: none;
+			background-color: $white;
+			padding: 5px 0;
+
+			li {
+				position: relative;
+				margin: 1px 0 1px 20px;
+
+				a {
+					display: block;
+					padding: 15px 18px;
+					font-size: $font_size--s;;
+				}
+			}
+		}
+	}
+
+	.sublist-toggle {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 55px;
+		height: 55px;
+		border-left: 1px solid $white;
+		background: $toggle-black-icon center no-repeat;
+		padding: 15px;
+		font-size: $font_size--s;;
+		font-weight: bold;
+		color: $white;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.sublist {
+
+		.sublist-toggle {
+			height: 49px;
+		}
+
+		.sublist {
+
+			li {
+				background-color: $color_black_haze_approx;
+			}
+			
+			.sublist li {
+				background-color: $white;
+			}
+		}
+	}
+}

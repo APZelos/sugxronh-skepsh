@@ -1,0 +1,30 @@
+.cart-total {
+
+	td {
+		width: 50%;
+		padding: 5px 0;
+		text-align: right;
+
+		&:first-child {
+			text-align: left;
+		}
+	}
+
+	.giftcard-remaining {
+		display: block;
+		font-style: italic;
+	}
+
+	.order-total {
+		font-size: $font_size--xxl;
+		color: $color_main;
+
+		strong {
+			font-weight: normal;
+		}
+	}
+	
+	.earn-reward-points {
+		font-style: italic;
+	}
+}

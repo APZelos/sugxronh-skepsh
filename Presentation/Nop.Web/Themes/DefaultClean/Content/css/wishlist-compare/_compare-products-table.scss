@@ -1,0 +1,79 @@
+.compare-products-table {
+
+	td {
+		min-width: 150px;
+		border: 1px solid $border_color;
+		background-color: $white;
+		padding: 20px;
+		text-align: left;
+		vertical-align: top;
+    color: $font_color;
+    
+		&:first-child {
+			min-width: 0;
+    }
+    
+		label {
+			font-weight: normal;
+			color: $font_color--alt;
+		}
+  }
+  
+	.remove-button {
+		display: inline-block;
+		border: none;
+		background: $remove-icon left center no-repeat;
+		padding: 0 0 0 18px;
+		font-size: $font_size--xxxs;
+    color: $font_color;
+    
+		&:hover {
+			color: $color_main;
+		}
+	}
+	.picture {
+		display: block;
+		position: relative;
+		max-width: 200px;
+		height: 200px;
+    overflow: hidden;
+    
+		img {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			max-width: 100%;
+			max-height: 100%;
+			margin: auto;
+		}
+  }
+  
+	.product-name td {
+    font-weight: bold;
+    
+		a:hover {
+			color: $color_main;
+		}
+  }
+  
+	.short-description td {
+		line-height: 22px;
+  }
+  
+	.full-description td {
+		display: none;
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	.compare-products-table .full-description td {
+    display: table-cell;
+    
+		p {
+			margin-top: 0;
+		}
+	}
+}

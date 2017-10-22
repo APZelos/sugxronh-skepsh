@@ -1,0 +1,103 @@
+.product-review-list {
+	overflow: hidden;
+}
+
+.product-review-item .review-info a
+.product-review-helpfulness .vote {
+	display: inline-block;
+	padding: 0 5px;
+	color: $color_main;
+	cursor: pointer;
+}
+
+.product-review-item {
+  margin: 0 0 40px;
+  
+	.review-item-head {
+		border-top: 1px solid $border_color;
+		overflow: hidden;
+		background-color: $color_black_haze_approx;
+		padding: 10px;
+  }
+  
+	.review-title {
+		line-height: 20px;
+		font-size: $font_size--s;
+		color: $font_color;
+  }
+  
+	.product-review-box {
+		margin: 3px 0 0;
+  }
+  
+	.review-content {
+		padding: 20px 10px;
+  }
+  
+	.review-text {
+		margin: 0 0 15px;
+		line-height: 22px;
+		color: $font_color;
+  }
+  
+	.reply {
+		margin: 15px 0;
+		border-top: 1px solid $border_color;
+  }
+  
+	.reply-header {
+		margin: 15px 0;
+		font-weight: bold;
+  }
+  
+	.reply-text {
+		line-height: 22px;
+  }
+  
+	.review-info {
+    margin: 0 0 5px;
+    
+		label {
+			font-weight: normal;
+    }
+	}
+}
+
+.product-review-helpfulness {
+  
+	.question {
+		margin: 0 5px 0 0;
+		font-style: italic;
+  }
+  
+	.result {
+		margin: 0 0 0 10px;
+	}
+}
+
+@media all and(min-width: 769px) {
+
+	.product-review-item {
+		.review-title {
+			float: left;
+			max-width: 600px;
+		}
+		.product-review-box {
+			float: right;
+		}
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	.product-review-item .review-title {
+		max-width: 850px;
+	}
+}
+
+@media all and(min-width: 1367px) {
+
+	.product-review-item .review-title {
+		max-width: 1050px;
+	}
+}

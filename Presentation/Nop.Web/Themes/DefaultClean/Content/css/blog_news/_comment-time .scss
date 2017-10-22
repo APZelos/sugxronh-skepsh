@@ -1,0 +1,21 @@
+.comment-time {
+	margin: 0 0 15px;
+	font-size: $font_size--xxs;
+	font-weight: bold;
+
+	span {
+		color: $font_color;
+	}
+}
+
+@media all and(min-width: 769px) {
+	
+	.comment-time {
+		min-height: 40px;
+		margin: 0;
+		background-color: $color_black_haze_approx;
+		padding: 10px 15px;
+		font-size: $font_size--xs;;
+		font-weight: normal;
+	}
+}

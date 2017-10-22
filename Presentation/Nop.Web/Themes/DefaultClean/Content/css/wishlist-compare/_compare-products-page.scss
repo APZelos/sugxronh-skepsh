@@ -1,0 +1,43 @@
+.compare-products-page {
+	position: relative;
+  overflow: hidden;
+  
+	.clear-list {
+		display: inline-block;
+		margin: 0 0 20px;
+		background-color: $color_main;
+		padding: 10px 15px;
+		font-size: $font_size--xxxs;
+		color: $white;
+    text-transform: uppercase;
+    
+		&:hover {
+			background-color: $color_main--active;
+		}
+  }
+  
+	.table-wrapper {
+		margin: 0 0 30px;
+		padding: 0 0 1px;
+  }
+  
+	.no-data {
+		margin: 25px 0 0;
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	.compare-products-page {
+
+		.page-title {
+			margin: 0 0 -1px;
+    }
+    
+		.clear-list {
+			position: absolute;
+			top: 7px;
+			right: 0;
+		}
+	}
+}

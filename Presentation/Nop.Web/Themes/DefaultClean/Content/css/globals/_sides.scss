@@ -1,0 +1,16 @@
+.side-2 {
+  margin: 0 0 50px;
+  
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+@media all and(min-width: 1001px) {
+	.side-2 {
+		float: left;
+		width: 25%;
+  }
+}

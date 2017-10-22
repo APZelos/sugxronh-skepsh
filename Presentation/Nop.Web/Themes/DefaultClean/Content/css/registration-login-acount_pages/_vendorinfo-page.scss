@@ -1,0 +1,25 @@
+.vendorinfo-page {
+
+	.button-2 {
+		border: medium none;
+		background-color: $color_suva_gray_approx;
+		padding: 10px 15px;
+		font-size: $font_size--xs;
+		color: $white;
+    text-transform: uppercase;
+    
+		&:hover {
+			background-color: $color_mountain_mist_approx;
+		}
+  }
+  
+	.vendor-picture {
+		width: 400px;
+    margin: 0 auto;
+    
+		* {
+			display: block;
+			margin-top: 15px;
+		}
+	}
+}

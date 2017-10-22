@@ -1,0 +1,13 @@
+.search-results {
+	margin: 30px 0 0;
+
+	.warning {
+		margin: 10px 0;
+		color: $color_error;
+	}
+	
+	.no-result {
+		margin: 10px 0;
+		color: $color_error;
+	}
+}

@@ -1,0 +1,14 @@
+
+@media all and(min-width: 1367px) {
+	.inputs label {
+		width: 375px;
+	}
+	.payment-info .info td {
+		&:first-child {
+			width: 375px !important;
+		}
+		&:only-child {
+			width: 100% !important;
+		}
+	}
+}

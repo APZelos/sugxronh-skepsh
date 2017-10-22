@@ -1,0 +1,64 @@
+.comment-info {
+	width: 150px;
+	margin: 20px auto;
+
+	.username {
+		display: block;
+		margin: 0 0 -1px;
+		border: 1px solid $border_color;
+		background-color: $color_black_haze_approx;
+		padding: 11px 0;
+		font-weight: bold;
+		color: $font_color;
+	}
+
+	.avatar {
+		position: relative;
+		width: 150px;
+		height: 150px;
+		border: 1px solid $border_color;
+		overflow: hidden;
+
+		img {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			max-width: 100%;
+			max-height: 100%;
+			margin: auto;
+			border: solid 2px $color_geyser_approx !important;
+		}
+	}
+
+	a.username:hover {
+		color: $color_main;
+	}
+}
+
+@media all and(min-width: 769px) {
+	
+	.comment-info {
+		display: table-cell;
+		width: 15%;
+		margin: 0;
+		vertical-align: top;
+
+		.username {
+			min-height: 40px;
+			margin: 0;
+			border: none;
+			text-align: center;
+		}
+
+		.avatar {
+			border: none;
+			
+			img {
+				max-width: 80%;
+				max-height: 80%;
+			}
+		}
+	}
+}

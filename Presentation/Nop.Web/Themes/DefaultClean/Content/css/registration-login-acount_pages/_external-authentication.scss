@@ -1,0 +1,30 @@
+.external-authentication {
+	margin: 0 0 50px;
+	overflow: hidden;
+  text-align: center;
+  
+	.title {
+		margin: 0 0 15px;
+		font-size: $font_size--xxl;
+		color: $font_color;
+  }
+  
+	.buttons {
+		margin: 0 0 30px;
+		border-top: 1px solid $color_mercury_approx;
+		padding: 30px;
+	}
+}
+.external-auth-errors {
+	color: $color_error;
+}
+
+.external-auth-association {
+	color: $font_color;
+	a {
+		color: $color_main;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

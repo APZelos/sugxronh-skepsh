@@ -1,0 +1,50 @@
+.csharpcode {
+	margin: 10px 0;
+	border: 1px dashed $border_color--alt;
+	background-color: $white;
+	padding: 10px;
+	font-family: $font--code;
+    color: $black;
+    
+	.rem {
+		color: green;
+    }
+    
+	.kwrd {
+		color: #00f;
+    }
+    
+	.str {
+		color: #006080;
+    }
+    
+	.op {
+		color: #00c;
+    }
+    
+	.preproc {
+		color: #c63;
+    }
+    
+	.asp {
+		background-color: #ff0;
+    }
+    
+	.html {
+		color: maroon;
+    }
+    
+	.attr {
+		color: red;
+    }
+    
+	.alt {
+		width: 100%;
+		margin: 0;
+		background-color: $color_black_haze_approx;
+    }
+    
+	.lnum {
+		color: $color_storm_dust_approx;
+	}
+}

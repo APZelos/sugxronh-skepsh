@@ -1,0 +1,17 @@
+.active-discussions-page {
+
+	.forums-table-section-title {
+		margin: 0 0 25px;
+		border-bottom: 1px solid $border_color;
+    padding: 0 10px 10px;
+    
+		strong {
+			font-size: $font_size--title;
+			font-weight: normal;
+		}
+  }
+  
+	.forums-table-section-body {
+		margin: 0 0 20px;
+	}
+}

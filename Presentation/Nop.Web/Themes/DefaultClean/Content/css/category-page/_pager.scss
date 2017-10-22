@@ -1,0 +1,67 @@
+.pager {
+  margin: 0 0 20px;
+  
+	ul {
+		text-align: right;
+		font-size: 0;
+  }
+  
+	li {
+		display: inline-block;
+		margin: 0 5px;
+    vertical-align: top;
+
+    a,
+    span {
+      display: block;
+      min-width: 35px;
+      height: 35px;
+      border: 1px solid $border_color;
+      background-color: $color_gallery_approx;
+      padding: 8px;
+      text-align: center;
+      font-size: $font_size--xs;
+      cursor: pointer;
+    }
+    
+		a {
+      
+			&:hover {
+				border-color: transparent;
+				background-color: $border_color;
+			}
+    }
+    
+		span {      
+			border-color: transparent;
+			background-color: $color_main;
+			color: $white;
+    }
+    
+    &.previous-page *,
+    &.next-page *,
+    &.first-page *,
+    &.last-page * {
+      background-position: center;
+      background-repeat: no-repeat;
+      font-size: 0;
+      color: $white;
+		}
+    
+		&.previous-page * {
+			background-image: $prev-icon;
+    }
+    
+		&.next-page * {
+			background-image: $next-icon;
+    }
+    
+		&.first-page * {
+			background-image: $first-icon;
+    }
+    
+		&.last-page * {
+			background-image: $last-icon;
+		}
+	}
+}

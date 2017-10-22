@@ -1,0 +1,40 @@
+.new-comment {
+	margin: 50px 0 60px;
+
+	.notifications {
+		margin: 0 0 10px;
+	}
+
+	.result {
+		color: $color_limeade_approx;
+	}
+
+	.form-fields {
+		margin: 0 0 20px;
+	}
+
+	.button-1 {
+		border: none;
+		background-color: $color_main;
+		padding: 10px 30px;
+		text-align: center;
+		font-size: $font_size--s;
+		color: $white;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: $color_main--active;
+		}
+	}
+}
+
+@media all and(min-width: 769px) {
+	
+	.new-comment {
+		text-align: center;
+		
+		.buttons {
+			text-align: center;
+		}
+	}
+}

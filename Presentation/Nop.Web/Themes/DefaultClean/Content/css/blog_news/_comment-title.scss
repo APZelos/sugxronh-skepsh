@@ -1,0 +1,13 @@
+.comment-title {
+	margin: 0 0 15px;
+	font-size: $font_size--m;
+	color: $font_color;
+}
+
+@media all and(min-width: 769px) {
+	
+	.comment-title {
+		margin: 0 0 -20px;
+		padding: 20px;
+	}
+}

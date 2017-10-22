@@ -1,0 +1,108 @@
+.forums-table-section {
+  margin: 0 0 60px;
+  
+  .forum-title,
+  .topic-title {
+    margin: 5px 0;
+    
+		a {
+      font-size: $font_size--m;
+      font-weight: bold;
+      color: $font_color;
+      
+			&:hover {
+				color: $color_main;
+				text-decoration: none;
+			}
+    }
+    
+		span {
+			display: block;
+			color: $font_color--alt;
+		}
+  }
+  
+  .forum-description,
+  .topic-starter {
+		margin: 5px 0;
+  }
+  
+	.latest-post {
+    white-space: nowrap;
+    
+		div {
+			margin: 5px 0;
+    }
+    
+		label {
+			color: $font_color--alt;
+		}
+  }
+  
+	.view-all {
+		margin: 30px 0 0;
+    padding: 0 10px;
+    
+		a {
+			background-color: $color_main;
+			padding: 10px 15px;
+			font-size: $font_size--xxxs;
+			color: $white;
+      text-transform: uppercase;
+      
+			&:hover {
+				background-color: $color_main--active;
+			}
+		}
+  }
+  
+	+ .pager {
+		margin: -30px 0 30px;
+  }
+  
+	.image div {
+		width: 38px;
+		height: 32px;
+		margin: auto;
+    background: $topic-type1-icon center no-repeat;
+    
+		&.sticky {
+			background: $topic-type2-icon center no-repeat;
+    }
+    
+		&.announcement {
+			background: $topic-type3-icon center no-repeat;
+		}
+	}
+}
+
+@media all and(min-width: 1001px) {
+  
+	.forums-table-section {
+		td {
+      min-width: 150px;
+      
+			&:first-child {
+				min-width: 90px;
+			}
+    }
+    
+		.view-all {
+			text-align: right;
+		}
+	}
+	.forum-table {
+
+		.forum-details {
+			min-width: 225px;
+    }
+    
+		.topic-details {
+			min-width: 225px;
+    }
+    
+		td {
+			padding: 20px;
+		}
+	}
+}

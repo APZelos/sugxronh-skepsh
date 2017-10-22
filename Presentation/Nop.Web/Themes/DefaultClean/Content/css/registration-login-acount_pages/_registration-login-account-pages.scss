@@ -1,0 +1,269 @@
+.registration-page,
+.registration-result-page,
+.login-page,
+.password-recovery-page,
+.account-page,
+.return-request-page  {
+  
+  .button-1 {
+    min-width: 140px;
+    border: none;
+    background-color: $color_main;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: $font_size--s;
+    color: $white;
+    text-transform: uppercase;
+    
+    &:hover {
+      background-color: $color_main--active;
+    }
+  }
+}
+
+.registration-page,
+.login-page,
+.account-page {
+  
+	.message-error {
+		margin: 0 0 10px;
+  }
+}
+
+.registration-page .vat-note,
+.customer-info-page .vat-note,
+.customer-info-page .email-to-revalidate-note {
+	display: block;
+	font-size: $font_size--xs;
+	margin-top: 7px;
+	white-space: normal;
+}
+
+.registration-result-page {
+  
+	.result {
+		margin: 0 0 30px;
+		padding: 30px 0;
+		text-align: center;
+		font-size: $font_size--m;
+		color: $color_success;
+	}
+}
+
+.login-page {
+  
+	.customer-blocks {
+		margin: 0 0 30px;
+  }
+  
+	.title {
+		margin: 0 0 15px;
+		font-size: $font_size--xxl;
+    color: $font_color;
+    
+		strong {
+			font-weight: normal;
+		}
+  }
+  
+	.new-wrapper {
+    margin: 0 0 50px;
+    
+		.text {
+			margin: 0 0 30px;
+			border-top: 1px solid $color_mercury_approx;
+			background-color: $color_alabaster_approx;
+			padding: 30px;
+			line-height: 22px;
+    }
+    
+		.topic-block {
+			margin: 0;
+    }
+    
+		.button-1 {
+			margin: 0 0 5px;
+    }
+    
+		.topic-block-body strong {
+			color: $font_color;
+		}
+	}
+	.returning-wrapper {
+    margin: 0;
+    
+		.form-fields {
+			overflow: hidden;
+			padding: 30px 15px 0;
+    }
+    
+		.buttons {
+			background-color: $white;
+			padding: 30px 0;
+    }
+    
+		.inputs.reversed {
+      white-space: normal;
+      
+			* {
+				display: inline-block;
+				width: auto;
+				margin: 5px;
+				font-size: $font_size--xs;
+				color: $font_color;
+      }
+      
+			a:hover {
+				color: $color_main;
+			}
+		}
+  }
+  
+	.captcha-box {
+		margin: -15px 0 20px;
+	}
+}
+
+.password-recovery-page {
+  
+	.result {
+		margin: 0 0 5px;
+		font-weight: bold;
+		color: $font_color;
+  }
+  
+	.tooltip {
+		margin: 0 0 25px;
+	}
+}
+
+.account-page {
+  
+	.buttons {
+		text-align: center;
+  }
+  
+	.description {
+		margin: 0 0 25px;
+		padding: 0 10px;
+  }
+  
+	.table-wrapper {
+		margin: 0 0 30px;
+	}
+}
+
+.return-request-page {
+  
+	.return-request-file {
+    font-size: $font_size--xs;
+    
+		.uploadedfileinput {
+			display: inline-block;
+		}
+  }
+  
+	h1 a {
+		color: $color_main;
+	}
+}
+
+.customer-info-page {
+
+	.email-to-revalidate {
+		margin: 0 5px;
+		font-size: $font_size--xs;
+  }
+  
+	.readonly-username {
+		margin: 0 5px;
+		font-size: $font_size--xs;
+  }
+  
+	.vat-status {
+		margin: 0 5px;
+		font-size: $font_size--xs;
+		display: block;
+  }
+}
+
+@media all and(min-width: 1001px) {
+
+	.registration-page .vat-note {
+		margin-left: 275px;
+	}
+
+	.login-page {
+		.customer-blocks {
+			overflow: hidden;
+		}
+		.new-wrapper {
+			float: left;
+			width: 49%;
+			margin: 0;
+			.text {
+				min-height: 200px;
+			}
+		}
+		.returning-wrapper {
+			float: right;
+			width: 49%;
+			.form-fields {
+				min-height: 200px;
+				padding: 30px 0 0;
+			}
+			input[type="text"] {
+				width: 300px;
+			}
+			input[type="email"] {
+				width: 300px;
+			}
+			input[type="password"] {
+				width: 300px;
+			}
+			.inputs label {
+				width: 110px;
+			}
+		}
+	}
+
+	.customer-info-page {
+		.vat-note {
+			margin-left: 150px;
+		}
+		.email-to-revalidate-note {
+			margin-left: 150px;
+		}
+		.vat-status {
+			display: inline-block;
+		}
+	}
+}
+
+@media all and(min-width: 1367px) {
+
+	.registration-page .vat-note {
+		margin-left: 385px;
+	}
+
+	.login-page .returning-wrapper {
+		input[type="text"] {
+			width: 360px;
+		}
+		input[type="email"] {
+			width: 360px;
+		}
+		input[type="password"] {
+			width: 360px;
+		}
+	}
+
+	.customer-info-page {
+		.vat-note {
+			margin-left: 225px;
+		}
+		.email-to-revalidate-note {
+			margin-left: 225px;
+		}
+	}
+}

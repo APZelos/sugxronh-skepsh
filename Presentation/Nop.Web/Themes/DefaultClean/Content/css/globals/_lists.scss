@@ -1,0 +1,46 @@
+ol {
+	list-style: none;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+  cursor: pointer;
+  
+	img {
+		border: none;
+		opacity: 0.99;
+  }
+  
+	&:active {
+		outline: none;
+	}
+}
+
+.category-description,
+.manufacturer-description,
+.full-description,
+.topic-block,
+.topic-page,
+.post-body  {
+	
+	ul {
+		margin: 12px 0;
+		padding: 0 0 0 36px;
+		list-style: disc;
+	}
+
+	ol {
+		margin: 12px 0;
+		padding: 0 0 0 36px;
+		list-style: decimal;
+	}
+	
+	p {
+		margin: 10px 0;
+		text-align: justify;
+	}
+}

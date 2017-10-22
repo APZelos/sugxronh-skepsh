@@ -1,0 +1,176 @@
+.footer {
+	background-color: $color_gallery_approx;
+	text-align: center;
+}
+
+.footer-upper {
+	width: 95%;
+	margin: auto;
+	border-bottom: 1px solid $border_color;
+	overflow: hidden;
+	padding: 40px 0;
+	font-size: 0;
+}
+
+.footer-block {
+	width: 95%;
+	margin: 1px auto;
+	text-align: left;
+    font-size: $font_size--xs;
+    
+	.title {
+		margin: 0 0 1px;
+		background: $color_main $toggle-white-icon right center no-repeat;
+		padding: 10px 15px;
+		font-size: $font_size--xxl;
+		color: $white;
+        cursor: pointer;
+        
+		strong {
+			font-weight: normal;
+		}
+    }
+    
+	.list {
+		display: none;
+		margin: 0 0 20px;
+		background-color: $white;
+        padding: 10px 15px;
+        
+		a {
+			display: block;
+			padding: 10px 15px;
+            line-height: 20px;
+            
+			&:hover {
+				color: $color_main;
+			}
+		}
+	}
+}
+
+.footer-lower {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+	padding: 25px 0;
+	font-size: $font_size--xxxs;
+}
+
+.footer-powered-by {
+    margin: 10px 0 0;
+    
+	a {
+		font-weight: bold;
+        color: $color_main;
+        
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+@media all and(min-width: 481px) {
+	.footer-block {
+		width: 85%;
+    }
+}
+
+@media all and(min-width: 769px) {
+
+	.footer-block {
+		display: inline-block;
+		width: 25.33333%;
+		margin: 0 4%;
+        vertical-align: top;
+        
+		.title {
+			margin: 0 0 15px;
+			background: none;
+			padding: 0;
+			color: $font_color;
+			cursor: auto;
+        }
+        
+		.list {
+			display: block !important;
+			background: none;
+            padding: 0;
+            
+			li {
+				padding: 5px 0;
+            }
+            
+			a {
+				display: inline;
+				padding: 0;
+			}
+		}
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	.footer-upper {
+		width: 980px;
+        padding: 35px 10px;
+        
+		&:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+    }
+    
+	.footer-block {
+		float: left;
+		width: 220px;
+        margin: 0;
+        
+		&:first-child {
+        }
+        
+		.list {
+			margin: 0;
+		}
+    }
+    
+	.footer-lower {
+		position: relative;
+		width: 980px;
+        padding: 25px 5px;
+        
+		&:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+    }
+    
+	.footer-info {
+		float: right;
+		line-height: 32px;
+    }
+    
+	.footer-powered-by {
+		float: left;
+		margin: 0;
+		line-height: 32px;
+	}
+}
+
+@media all and(min-width: 1367px) {
+	.footer-upper {
+		width: 1200px;
+		padding: 35px 30px;
+    }
+    
+	.footer-block {
+		width: 280px;
+    }
+    
+	.footer-lower {
+		width: 1200px;
+		padding: 25px 20px;
+    }
+}

@@ -1,0 +1,128 @@
+.form-fields {
+	position: relative;
+	border-top: 1px solid $color_mercury_approx;
+	background-color: $color_alabaster_approx;
+	padding: 30px 15px;
+}
+
+.fieldset,
+.section {
+	position: relative;
+	margin: 0 0 40px;
+
+	.title {
+		margin: 0 0 15px;
+		padding: 0 10px;
+		font-size: $font_size--xxl;;
+		color: $font_color;
+
+		strong {
+			font-weight: normal;
+		}
+	}
+}
+
+.inputs {
+	position: relative;
+	margin: 0 0 15px;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 0;
+
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	label {
+		display: block;
+		width: 100%;
+		margin: 0 0 10px;
+		text-align: center;
+		font-size: $font_size--xs;;
+		color: $font_color;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="password"],
+	select,
+	textarea {
+		width: 400px;
+		max-width: 100%;
+		background-color: $white;
+	}
+
+	&.custom-attributes {
+		white-space: normal;
+	}
+
+	.option-list {
+		display: inline-block;
+		max-width: 95%;
+		vertical-align: middle;
+
+		li {
+			display: inline-block;
+			margin: 5px;
+			border: 1px solid $border_color;
+			background-color: $white;
+			padding: 8px 10px;
+		}
+
+		label {
+			display: inline-block;
+			width: auto !important;
+			margin: 0 0 0 5px;
+		}
+	}
+
+	&.reversed {
+		margin: 0 0 20px;
+		text-align: center;
+	}
+}
+
+.required {
+	margin: 0 -8px 0 3px;
+	vertical-align: top;
+	font-size: $font_size--xxl;;
+	font-weight: normal;
+	color: $color_error;
+}
+
+.message-error,
+.field-validation-error,
+.username-not-available-status,
+.poll-vote-error,
+.password-error {
+	display: block;
+	text-align: center;
+	font-size: $font_size--xxs;;
+	color: $color_error;
+	margin-top: 5px;
+}
+
+.field-validation-valid,
+.username-available-status {
+	display: block;
+	text-align: center;
+	font-size: $font_size--xxs;;
+	color: $color_success;
+}
+
+.captcha-box {
+	text-align: center;
+	line-height: 0;
+
+	> div {
+		display: inline-block;
+		max-width: 100%;
+	}
+
+	input {
+		height: auto;
+	}
+}

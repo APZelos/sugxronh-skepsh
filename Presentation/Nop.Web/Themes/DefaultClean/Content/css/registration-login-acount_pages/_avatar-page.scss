@@ -1,0 +1,60 @@
+.avatar-page {
+
+	.page-title {
+		margin: 0;
+  }
+  
+	.page-body {
+		margin: 0 0 30px;
+		overflow: hidden;
+		background-color: $color_alabaster_approx;
+		padding: 30px 25px;
+  }
+  
+	.message-error {
+		margin: 0 0 10px;
+  }
+  
+	.image {
+    margin: 0 0 10px;
+    
+		img {
+			border: 1px solid $border_color--alt;
+		}
+  }
+  
+	.button-1 {
+		font-size: $font_size--xs;
+  }
+  
+	.button-2 {
+		border: none;
+		background-color: $color_suva_gray_approx;
+		padding: 10px 15px;
+		font-size: $font_size--xs;
+		color: $white;
+    text-transform: uppercase;
+    
+		&:hover {
+			background-color: $color_mountain_mist_approx;
+		}
+  }
+  
+	.info {
+		color: $font_color;
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	.avatar-page {
+
+		.message-error {
+			text-align: left;
+    }
+    
+		.buttons {
+			text-align: left;
+		}
+	}
+}

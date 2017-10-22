@@ -1,0 +1,45 @@
+.comment-list {
+	margin: 0 0 100px;
+
+	.title {
+		margin: 0 0 15px;
+		padding: 0 10px;
+		font-size: $font_size--xxl;
+		color: $font_color;
+
+		strong {
+			font-weight: normal;
+		}
+	}
+
+	.comment {
+		margin: 0 0 40px;
+		border-top: 1px solid $border_color;
+
+		&:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+	}
+}
+
+@media all and(min-width: 769px) {
+	
+	.comment-list .comment {
+		display: table;
+		width: 100%;
+		margin: 0;
+
+		&:last-child {
+			border-bottom: 1px solid $border_color;
+		}
+	}
+}
+
+@media all and(min-width: 1001px) {
+	
+	.comment-list {
+		margin: 0 0 50px;
+	}
+}

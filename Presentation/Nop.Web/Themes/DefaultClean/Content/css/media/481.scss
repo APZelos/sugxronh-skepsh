@@ -1,0 +1,32 @@
+
+@media all and(min-width: 481px) {
+	.ui-tabs-nav li {
+		display: inline-block;
+		min-width: 150px;
+		margin: 0 5px -1px !important;
+	}
+	.private-messages-page .buttons {
+		.button-1 {
+			display: inline-block;
+			width: auto;
+			margin: 1px;
+		}
+		.button-2 {
+			display: inline-block;
+			width: auto;
+			margin: 1px;
+		}
+	}
+	.private-message-view-page .buttons {
+		.button-1 {
+			display: inline-block;
+			width: auto;
+			margin: 1px;
+		}
+		.button-2 {
+			display: inline-block;
+			width: auto;
+			margin: 1px;
+		}
+	}
+}

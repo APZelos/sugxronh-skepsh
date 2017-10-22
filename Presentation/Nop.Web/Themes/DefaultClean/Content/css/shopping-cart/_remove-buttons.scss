@@ -1,0 +1,8 @@
+.remove-discount-button,
+.remove-gift-card-button {
+	width: 16px;
+	height: 16px;
+	border: 1px solid $color_mountain_mist_approx;
+	background: $white $close-icon center no-repeat;
+	cursor: pointer;
+}

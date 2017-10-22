@@ -1,0 +1,21 @@
+#check-availability-button {
+	margin: 10px 0 0;
+	border: none;
+	background-color: $color_suva_gray_approx;
+	padding: 10px 15px;
+	font-size: $font_size--xxxs;
+	color: $white;
+  text-transform: uppercase;
+  
+	&:hover {
+		background-color: $color_mountain_mist_approx;
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	#check-availability-button {
+		display: block;
+		margin: 10px auto;
+	}
+}

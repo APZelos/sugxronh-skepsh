@@ -1,0 +1,477 @@
+//colors
+$color_gallery_approx: #eee;
+$white: #fff;
+$color_black_haze_approx: #f6f6f6;
+$color_alabaster_approx: #f9f9f9;
+$color_mercury_approx: #e6e6e6;
+$color_silver_chalice_approx: #aaa;
+$color_pink_swan_approx: #bbb;
+$color_mountain_mist_approx: #999;
+$color_gray_nurse_approx: #eaeaea;
+$color_concrete_approx: #f3f3f3;
+$color_valencia_approx: #de444c;
+$black: #000000;
+$color_limeade_approx: #690;
+$color_geyser_approx: #cedbe1;
+$color_soft_amber_approx: #cec6b5;
+
+$color_suva_gray_approx: #888;
+
+// Colors
+$color_main: #4ab2f1;
+$color_main--active: #248ece;
+$color_error: #e4434b;
+$color_success: #4cb17c;
+$color_warning: #f39c12;
+$color_shadow: rgba(0,0,0,0.25);
+
+// Fonts
+$font: "Arial", "Helvetica", "sans-serif";
+$font--code: "Courier New", "Courier", "monospace";
+$font_color: #444;
+$font_color--alt: #777;
+$font_size--xxxs: 12px;
+$font_size--xxs: 13px;
+$font_size--xs: 14px;
+$font_size--s:  15px;
+$font_size--m: 16px;
+$font_size--l: 17px;
+$font_size--xl: 18px;
+$font_size--xxl: 20px;
+$font_size--xxxl: 22px;
+$font_size--title-s: 24px;
+$font_size--title: 30px;
+
+// Borders
+$border_size: 1px;
+$border_radius: 0;
+$border_color: #ddd;
+$border_color--active: #333;
+$border_color--alt: #ccc;
+
+// Breakpoints
+$breakpoint_xs: 481px;
+$breakpoint_s: 769px;
+$breakpoint_m: 1000px;
+$breakpoint_l: 1001px;
+$breakpoint_xl: 1367px;
+
+// URLS
+$rss-icon: url("../images/rss.png");
+$close-icon: url("../images/close.png");
+$loading-icon: url("../images/loading.gif");
+$ajax-loader-small-icon: url("../images/ajax-loader-small.gif");
+$shopping-bag-icon: url("../images/shopping-bag.png");
+$toggle-white-icon: url("../images/toggle-white.png");
+$social-sprite-icon: url("../images/social-sprite.png");
+$toggle-gray-icon: url("../images/toggle-gray.png");
+$rating1-icon: url("../images/rating1.png");
+$rating2-icon: url("../images/rating2.png");
+$compare-button-icon: url("../images/compare-button.png");
+$wishlist-button-icon: url("../images/wishlist-button.png");
+$prev-icon: url("../images/prev.png");
+$next-icon: url("../images/next.png");
+$first-icon: url("../images/first.png");
+$last-icon: url("../images/last.png");
+$discontinued-product-icon: url("../images/discontinued-product-icon.png");
+$email-button-icon: url("../images/email-button.png");
+$download-button-icon: url("../images/download-button.png");
+$shipping-icon: url("../images/shipping.png");
+$calendar-prev-icon: url("../images/calendar-prev.png");
+$calendar-next-icon: url("../images/calendar-next.png");
+$remove-icon: url("../images/remove.png");
+$edit-icon: url("../images/edit.png");
+$retry-icon: url("../images/retry.png");
+$return-icon: url("../images/return.png");
+$details-icon: url("../images/details.png");
+$pointer-icon: url("../images/pointer.png");
+$back-button-icon: url("../images/back-button.png");
+$topic-type1-icon: url("../images/topic-type1.png");
+$topic-type2-icon: url("../images/topic-type2.png");
+$topic-type3-icon: url("../images/topic-type3.png");
+$new-icon: url("../images/new.png");
+$watch-icon: url("../images/watch.png");
+$reply-icon: url("../images/reply.png");
+$move-icon: url("../images/move.png");
+$edit_-icon: url("../images/edit_.png");
+$remove_-icon: url("../images/remove_.png");
+$vote-up-icon: url("../images/vote-up.png");
+$vote-up-selected-icon: url("../images/vote-up-selected.png");
+$vote-down-icon: url("../images/vote-down.png");
+$vote-down-selected-icon: url("../images/vote-down-selected.png");
+$menu-icon: url("../images/menu-icon.png");
+$toggle-black-icon: url("../images/toggle-black.png");
+$view-grid-icon: url("../images/view-grid.png");
+$view-list-icon: url("../images/view-list.png");
+
+@import './globals/_core.scss';
+@import './globals/_inputs.scss';
+@import './globals/_buttons.scss';
+@import './globals/_lists.scss';
+@import './globals/_tables.scss';
+@import './globals/_master.scss';
+@import './globals/_center.scss';
+@import './globals/_sides.scss';
+@import './globals/_page.scss';
+
+@import './_forms.scss';
+
+@import './notifications_popups/_bar-notification.scss';
+@import './notifications_popups/_ui-dialog.scss';
+@import './notifications_popups/_eu-cookie-bar-notification.scss';
+@import './notifications_popups/_noscript.scss';
+@import './notifications_popups/_ajax-loading-block-window.scss';
+@import './notifications_popups/_please-wait.scss';
+
+@import './headers/_admin-header-links.scss';
+@import './headers/_header.scss';
+@import './headers/_language-list.scss';
+@import './headers/_topcartlink.scss';
+@import './headers/_search-box.scss';
+@import './headers/_ui-autocomplete.scss';
+
+@import './footer/_footer.scss';
+@import './footer/_follow-us.scss';
+@import './footer/_newsletter.scss';
+@import './footer/_theme-selector.scss';
+
+@import './side-column/_block.scss';
+@import './side-column/_polls.scss';
+
+@import './category-page/_breadcrumb.scss';
+@import './category-page/_descriptions.scss';
+@import './category-page/_contact-vendor.scss';
+@import './category-page/_product-selectors.scss';
+@import './category-page/_product-filters.scss';
+@import './category-page/_item-box.scss';
+@import './category-page/_grids.scss';
+@import './category-page/_pager.scss';
+
+@import './product-page/_product-details-page.scss';
+@import './product-page/_product-essential.scss';
+@import './product-page/_gallery.scss';
+@import './product-page/_overview.scss';
+@import './product-page/_variant-overview.scss';
+@import './product-page/_product.scss';
+@import './product-page/_customer-entered-price.scss';
+@import './product-page/_tier-prices.scss';
+@import './product-page/_attributes.scss';
+@import './product-page/_ui-datepicker.scss';
+@import './product-page/_tooltip-container.scss';
+@import './product-page/_giftcard.scss';
+
+@import './product-review/_product-reviews-page.scss';
+@import './product-review/_write-review.scss';
+@import './product-review/_product-review.scss';
+
+@import './wishlist-compare/_wishlist-page.scss';
+@import './wishlist-compare/_wishlist-content.scss';
+@import './wishlist-compare/_compare-products-page.scss';
+@import './wishlist-compare/_compare-products-table.scss';
+
+@import './topics/_topic-block-title.scss';
+@import './topics/_topic-block-body.scss';
+@import './topics/_topic-password.scss';
+@import './topics/_enter-password-title.scss';
+@import './topics/_enter-password-form.scss';
+
+@import './_contact-page.scss';
+
+@import './registration-login-acount_pages/_gender.scss';
+@import './registration-login-acount_pages/_date-of-birth.scss';
+@import './registration-login-acount_pages/_check-availability-button.scss';
+@import './registration-login-acount_pages/_accept-privacy-policy.scss';
+@import './registration-login-acount_pages/_registration-login-account-pages.scss';
+@import './registration-login-acount_pages/_external-authentication.scss';
+@import './registration-login-acount_pages/_add-more-external-records.scss';
+@import './registration-login-acount_pages/_adress_list-order_list-pages.scss';
+@import './registration-login-acount_pages/_address-edit-page.scss';
+@import './registration-login-acount_pages/_recurring-payments.scss';
+@import './registration-login-acount_pages/_return-request-list-page.scss';
+@import './registration-login-acount_pages/_reward-points-overview.scss';
+@import './registration-login-acount_pages/_change-password-page.scss';
+@import './registration-login-acount_pages/_avatar-page.scss';
+@import './registration-login-acount_pages/_vendorinfo-page.scss';
+
+@import './shopping-cart/_order-progress.scss';
+@import './shopping-cart/_shopping-cart-page.scss';
+@import './shopping-cart/_checkout-attributes.scss';
+@import './shopping-cart/_selected-checkout-attributes.scss';
+@import './shopping-cart/_cart-footer.scss';
+@import './shopping-cart/_cart-total.scss';
+@import './shopping-cart/_min-amount-warning.scss';
+@import './shopping-cart/_terms-of-service.scss';
+@import './shopping-cart/_cart-collaterals.scss';
+@import './shopping-cart/_remove-buttons.scss';
+
+@import './checkout/_checkout-page.scss';
+@import './checkout/_enter-address.scss';
+@import './checkout/_select-pickup-point.scss';
+@import './checkout/_methods.scss';
+@import './checkout/_confirm-order.scss';
+@import './checkout/_order-review-data.scss';
+@import './checkout/_opc.scss';
+
+@import './order-details/_order-details-page.scss';
+@import './order-details/_user-agreement-page.scss';
+
+@import './search_sitemap/_search-input .scss';
+@import './search_sitemap/_advanced-search.scss';
+@import './search_sitemap/_search-results.scss';
+@import './search_sitemap/_sitemap-page.scss';
+
+@import './blog_news/_block-blog-archive.scss';
+@import './blog_news/_blog_blogposts-pages.scss';
+@import './blog_news/_news-items_blog-posts.scss';
+@import './blog_news/_post_news-titles.scss';
+@import './blog_news/_post_news-dates.scss';
+@import './blog_news/_new-comment.scss';
+@import './blog_news/_comment-list.scss';
+@import './blog_news/_comment-info.scss';
+@import './blog_news/_comment-time .scss';
+@import './blog_news/_comment-title.scss';
+@import './blog_news/_comment-body.scss';
+@import './blog_news/_news-list-homepage.scss';
+
+@import './forum_profile/_forums-main-page.scss';
+@import './forum_profile/_forum-breadcrumb.scss';
+@import './forum_profile/_forums-header.scss';
+@import './forum_profile/_forum-search-box.scss';
+@import './forum_profile/_forum-search-page.scss';
+@import './forum_profile/_forums-table-section.scss';
+@import './forum_profile/_forums-table-section-title.scss';
+@import './forum_profile/_forum-page.scss';
+@import './forum_profile/_forum-actions.scss';
+@import './forum_profile/_active-discussions-page.scss';
+@import './forum_profile/_topic_forum-post_profile-info-box.scss';
+@import './forum_profile/_forum-edit_move-topic_pages.scss';
+
+@import './_private-messages-page.scss';
+
+.link-rss {
+	display: none;
+	width: 24px;
+	height: 24px;
+	background: $rss-icon center no-repeat;
+	font-size: 0 !important;
+}
+
+.full-description {
+	clear: both;
+	line-height: 24px;
+}
+
+.topic-block,
+.topic-page {
+  
+	a {
+		text-decoration: underline;
+  }
+  
+	strong {
+		color: $font_color;
+	}
+}
+
+.topic-block {
+  margin: 0 0 25px;
+}
+
+.news-body,
+.post-body {
+	margin: 0 0 20px;
+	padding: 0 10px;
+	line-height: 22px;
+}
+
+.news-body {
+	
+	p {
+		margin: 10px 0;
+		text-align: justify;
+	}
+}
+
+.flyout-cart {
+	display: none;
+}
+
+.ui-tabs {
+	border: none;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: $border_radius;
+	background: none;
+	padding: 0;
+	font: normal $font_size--xs $font;
+	color: $font_color--alt;
+}
+.ui-tabs-nav {
+	border-bottom: 1px solid $border_color;
+	overflow: hidden;
+	font-size: 0;
+	margin: 0 0 30px !important;
+	border-width: 0 0 1px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: $border_radius;
+	background: none;
+	padding: 0 !important;
+	line-height: normal;
+	font-weight: normal;
+	color: $font_color;
+	li {
+		float: none !important;
+		margin: 0 0 -1px !important;
+		border: none !important;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: $border_radius;
+		background: none !important;
+		padding: 0 !important;
+		a {
+			display: block;
+			border: 1px solid $border_color;
+			text-align: center;
+			font-size: $font_size--xl;
+			color: $font_color;
+			float: none !important;
+			padding: 12px 24px !important;
+		}
+		&.ui-state-active a {
+			background-color: $color_gallery_approx;
+			color: $color_main;
+		}
+	}
+}
+.ui-tabs-panel {
+	padding: 0 !important;
+}
+
+
+pre {
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+.footer-tax-shipping a {
+	font-weight: bold;
+	color: $color_main;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.item-grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.product-review-links a {
+	text-decoration: underline;
+	&:hover {
+		color: $color_main;
+	}
+}
+
+.home-page .topic-block {
+	margin: 0 0 50px;
+}
+
+.popup-window .topic-page {
+	padding: 15px;
+}
+
+.not-found-page p {
+	margin: 30px 15px;
+}
+
+.downloadable-products-page table td {
+	color: $font_color;
+}
+
+.reward-points-history table td {
+	color: $font_color;
+	&:first-child {
+		min-width: 120px;
+	}
+}
+
+.payment-info .info {
+	padding: 30px 15px;
+	color: $font_color;
+	tr {
+		display: block;
+		margin: 0 0 15px;
+		font-size: 0;
+	}
+	td {
+		display: inline-block;
+		width: 100% !important;
+		max-width: 400px !important;
+		font-size: $font_size--xs;
+		&:only-child {
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+		input[type="text"] {
+			width: 100% !important;
+		}
+		input[name="CardCode"] {
+			width: 65px !important;
+		}
+		select {
+			min-width: 70px;
+		}
+		&:first-child {
+			margin: 0 0 10px;
+		}
+	}
+	p {
+		text-align: center;
+	}
+}
+
+.order-completed .details {
+	margin: 0 0 30px;
+	padding: 30px 15px;
+	text-align: center;
+	color: $font_color;
+	div {
+		margin: 5px 0;
+	}
+	strong {
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+	a {
+		color: $color_main;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.search-page .page-title {
+	margin: 0 0 -1px;
+}
+
+.news-list-page .page-title {
+	margin: 0;
+}
+
+.private-messages .buttons {
+	input {
+		display: block;
+		width: 250px;
+		margin: 0 auto 3px;
+		font-size: 15px;
+		&:hover {
+			background-color: $color_suva_gray_approx;
+		}
+	}
+	.button-1 {
+		background-color: $color_main;
+		&:hover {
+			background-color: $color_main--active;
+		}
+	}
+}

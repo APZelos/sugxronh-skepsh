@@ -1,0 +1,18 @@
+.forums-table-section-title {
+	margin: 0 0 15px;
+  padding: 0 10px;
+  
+  a,
+	strong {
+    font-size: $font_size--xxxl;
+    font-weight: normal;
+    color: $font_color;
+  }
+  
+	a {
+    
+		&:hover {
+			color: $color_main;
+		}
+  }
+}

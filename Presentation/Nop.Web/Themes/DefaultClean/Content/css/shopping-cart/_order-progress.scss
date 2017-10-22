@@ -1,0 +1,61 @@
+.order-progress {
+	margin: 0 0 50px;
+	background-color: $color_black_haze_approx;
+	padding: 15px 0;
+	text-align: center;
+
+	ul {
+		font-size: 0;
+	}
+
+	li {
+		display: inline-block;
+		margin: 10px;
+
+		&.active-step a {
+			cursor: pointer;
+		}
+
+		&.inactive-step a {
+			opacity: 0.3;
+			cursor: default;
+		}
+	}
+
+	a {
+		display: block;
+		min-width: 70px;
+		font-size: $font_size--xs;
+		color: $font_color;
+
+		&:before {
+			content: "";
+			display: block;
+			width: 40px;
+			height: 40px;
+			margin: 0 auto 15px;
+			border: 1px solid $color_pink_swan_approx;
+			background: $white $pointer-icon center no-repeat;
+		}
+	}
+}
+
+@media all and(min-width: 769px) {
+	
+	.order-progress {
+		padding: 20px;
+		li {
+			margin: 0 10px;
+		}
+		a {
+			min-width: 80px;
+		}
+	}
+}
+
+@media all and(min-width: 1001px) {
+	
+	.order-progress {
+		margin: -30px 0 50px;
+	}
+}

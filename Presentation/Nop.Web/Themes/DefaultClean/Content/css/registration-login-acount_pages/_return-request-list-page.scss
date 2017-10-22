@@ -1,0 +1,48 @@
+.return-request-list-page {
+
+	.details {
+		border-top: 1px solid $color_mercury_approx;
+		background-color: $color_alabaster_approx;
+		padding: 20px;
+		line-height: 22px;
+		color: $font_color;
+  }
+  
+	label {
+		margin: 0 5px 0 0;
+  }
+  
+	a {
+    color: $color_main;
+    
+		&:hover {
+			text-decoration: underline;
+		}
+  }
+  
+	.comments div {
+		margin: 10px 0 0;
+		font-size: $font_size--s;
+		font-style: italic;
+		color: $font_color;
+	}
+}
+
+@media all and(min-width: 769px) {
+
+	.return-request-list-page .section {
+		display: inline-block;
+		width: 45%;
+		margin: 20px 1%;
+		vertical-align: top;
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	.return-request-list-page .section {
+		display: block;
+		width: auto;
+		margin: 0 0 40px;
+	}
+}

@@ -1,0 +1,32 @@
+.product-reviews-page {
+
+	.title {
+		margin: 0 0 20px;
+		font-size: $font_size--xxl;
+    color: $font_color;
+    
+		strong {
+			font-weight: normal;
+		}
+  }
+  
+	.result {
+		margin: 0 0 20px;
+  }
+  
+	.message-error {
+		margin: 0 0 20px;
+  }
+  
+	h1 a {
+    color: $color_main;
+    
+		&:before {
+			content: "''";
+    }
+    
+		&:after {
+			content: "''";
+		}
+	}
+}

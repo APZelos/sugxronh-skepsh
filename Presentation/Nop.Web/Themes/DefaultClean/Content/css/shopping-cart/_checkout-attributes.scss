@@ -1,0 +1,45 @@
+.checkout-attributes {
+	margin: -30px 0 30px;
+	color: $font_color;
+
+	dt {
+		margin: 0 0 5px;
+		font-weight: bold;
+	}
+
+	dd {
+		margin: 0 0 20px;
+	}
+
+	input[type="text"] {
+		min-width: 170px;
+	}
+
+	select {
+		min-width: 170px;
+	}
+
+	ul {
+		font-size: 0;
+	}
+
+	li {
+		display: inline-block;
+		margin: 5px;
+		border: 1px solid $border_color;
+		background-color: $white;
+		padding: 8px 10px;
+		font-size: $font_size--xs;
+
+		label {
+			display: inline-block;
+			margin: 0 0 0 5px;
+		}
+	}
+	
+	.attribute-squares li {
+		border: none;
+		padding: 0;
+		line-height: 0;
+	}
+}

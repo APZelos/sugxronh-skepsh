@@ -1,0 +1,32 @@
+.forum-search-box {
+
+	.basic {
+		overflow: hidden;
+		margin: 0 0 10px;
+  }
+  
+	.advanced a {
+		line-height: 22px;
+		color: $font_color;
+    text-decoration: underline;
+    
+		&:hover {
+			color: $color_main;
+		}
+	}
+}
+
+@media all and(min-width: 1001px) {
+  
+	.forum-search-box {
+    float: left;
+    
+		.advanced {
+      text-align: left;
+      
+			a {
+				line-height: normal;
+			}
+		}
+	}
+}

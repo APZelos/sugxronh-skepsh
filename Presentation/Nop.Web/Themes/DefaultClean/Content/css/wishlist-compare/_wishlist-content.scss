@@ -1,0 +1,81 @@
+.wishlist-content {
+  margin: 0 0 20px;
+  
+	.message-error {
+		margin: 20px 0;
+  }
+  
+	.table-wrapper {
+		margin: 0 0 30px;
+  }
+  
+	.product-content {
+		min-width: 300px;
+		text-align: left;
+  }
+  
+	.tax-shipping-info {
+		margin: 0 0 20px;
+    text-align: center;
+    
+		a {
+      color: $color_main;
+      
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+  }
+  
+	.buttons {
+		font-size: 0;
+  }
+  
+	.button-2 {
+		display: block;
+		width: 250px;
+		margin: 0 auto 3px;
+		border: none;
+		padding: 10px 25px;
+		text-align: center;
+		line-height: 20px;
+		font-size: $font_size--s;
+		color: $white;
+  }
+  
+	.update-wishlist-button {
+		background-color: $color_main;
+    text-transform: uppercase;
+    
+		&:hover {
+			background-color: $color_main--active;
+		}
+  }
+  
+	.wishlist-add-to-cart-button {
+		background-color: $color_main;
+    text-transform: uppercase;
+    
+		&:hover {
+			background-color: $color_main--active;
+		}
+  }
+  
+	.email-a-friend-wishlist-button {
+    background-color: $color_silver_chalice_approx;
+    
+		&:hover {
+			background-color: $color_mountain_mist_approx;
+		}
+	}
+}
+
+@media all and(min-width: 481px) {
+
+	.wishlist-content .button-2 {
+		display: inline-block;
+		width: auto;
+		min-width: 140px;
+		margin: 0 1px 5px;
+	}
+}

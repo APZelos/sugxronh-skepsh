@@ -1,0 +1,45 @@
+.center-1 {
+  margin: 0 0 100px;
+  
+	.page-title {
+		text-align: center;
+  }
+  
+	.title {
+		text-align: center;
+	}
+}
+
+.center-2 {
+	margin: 0 0 50px;
+}
+
+@media all and(min-width: 1001px) {
+  
+	.center-1 {
+
+		.buttons {
+			text-align: center;
+    }
+    
+		.topic-block-title {
+			text-align: center;
+		}
+  }
+  
+	.center-2 {
+		float: right;
+    width: 73%;
+    
+		.inputs label {
+			width: 136px;
+		}
+  }
+}
+
+@media all and(min-width: 1367px) {
+  
+	.center-2 .inputs label {
+		width: 213px;
+	}
+}

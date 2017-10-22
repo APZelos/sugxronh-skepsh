@@ -1,0 +1,65 @@
+.write-review {
+  margin: 0 0 60px;
+  
+	.fieldset {
+		margin: 0 0 30px;
+  }
+  
+	.review-rating {
+    text-align: center;
+    
+		label {
+			display: block;
+			margin: 0 0 5px;
+			font-size: $font_size--xs;
+    }
+    
+		ul {
+			font-size: 0;
+			vertical-align: middle;
+    }
+    
+		li {
+			display: inline-block;
+			margin: 0 5px;
+			cursor: default;
+			vertical-align: middle;
+			font-size: $font_size--xs;
+      height: 17px;
+      
+			&.first {
+				color: $color_error;
+      }
+      
+			&.rating-options {
+        padding-top: 2px;
+        
+				input {
+					vertical-align: baseline;
+				}
+      }
+      
+			&.last {
+				color: $color_success;
+			}
+		}
+  }
+  
+	.captcha-box {
+		margin: 15px 0 0;
+  }
+  
+	.button-1 {
+		border: none;
+		background-color: $color_main;
+		padding: 10px 25px;
+		text-align: center;
+		font-size: $font_size--s;
+		color: $white;
+    text-transform: uppercase;
+    
+		&:hover {
+			background-color: $color_main--active;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+#topcartlink {
+	display: block;
+	width: 70%;
+	max-width: 400px;
+	margin: 10px auto 0;
+	background-color: $color_black_haze_approx;
+	padding: 0 20px;
+	a {
+		background: $shopping-bag-icon left center no-repeat;
+		padding: 0 0 0 20px;
+	}
+}
+
+@media all and(min-width: 1001px) {
+    
+	#topcartlink {
+		display: inline-block;
+		width: auto;
+		margin: 0;
+		padding: 0 18px;
+	}}

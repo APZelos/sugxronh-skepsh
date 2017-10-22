@@ -1,0 +1,16 @@
+.block-blog-archive {
+
+	.number {
+		display: block;
+		color: $font_color;
+		cursor: auto;
+	}
+
+	.sublist {
+		margin: 5px 0 5px 15px;
+	}
+	
+	li.month {
+		padding: 3px 0 3px 15px;
+	}
+}

@@ -1,0 +1,11 @@
+.add-more-external-records {
+  text-align: center;
+  
+	a {
+    color: $color_main;
+    
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

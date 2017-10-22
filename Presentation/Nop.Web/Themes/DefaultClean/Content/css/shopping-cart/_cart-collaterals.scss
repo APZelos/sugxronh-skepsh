@@ -1,0 +1,95 @@
+.cart-collaterals {
+	width: 350px;
+	max-width: 100%;
+	margin: 0 auto 50px;
+	padding: 25px 0 0;
+
+	> div {
+		max-width: 400px;
+		margin: 0 0 50px;
+	}
+
+	.button-2 {
+		display: inline-block;
+		border: none;
+		background-color: $color_silver_chalice_approx;
+		padding: 10px 15px;
+		color: $white;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: $color_mountain_mist_approx;
+		}
+	}
+
+	.title {
+		margin: 0 0 5px;
+		font-size: $font_size--xl;
+		color: $font_color;
+
+		strong {
+			font-weight: normal;
+		}
+	}
+
+	.hint {
+		margin: 0 0 10px;
+	}
+
+	.coupon-code {
+		overflow: hidden;
+
+		input[type="text"] {
+			float: left;
+			width: 60%;
+			height: 36px;
+			margin: 0 -1px 0 0;
+		}
+
+		input[type="submit"] {
+			float: left;
+			width: 40%;
+			height: 36px;
+			padding: 0;
+		}
+	}
+
+	.message-failure {
+		margin: 5px 0 0;
+		font-size: $font_size--xxxs;
+		color: $color_error;
+	}
+
+	.message-success {
+		margin: 5px 0 0;
+		font-size: $font_size--xxxs;
+		color: $color_success;
+	}
+
+	.current-code {
+		margin: 5px 0 0;
+		color: $color_success;
+	}
+
+	.shipping-results {
+		margin: 30px 0 0;
+
+		li {
+			margin: 20px 0;
+
+			strong {
+				display: block;
+				margin: 0 0 5px;
+				color: $font_color;
+			}
+		}
+	}
+
+	.deals > div {
+		margin: 0 0 20px;
+	}
+	
+	.shipping select {
+		height: 36px;
+	}
+}

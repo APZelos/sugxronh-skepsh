@@ -1,0 +1,92 @@
+.address-list-page,
+.order-list-page {
+
+	.info {
+    margin: 0 0 10px;
+    border-top: 1px solid $color_mercury_approx;
+    background-color: $color_alabaster_approx;
+    padding: 20px;
+    line-height: 26px;
+    color: $font_color;
+    
+		.name {
+			font-size: $font_size--m;
+			font-weight: bold;
+		}
+  }
+  
+	.button-2 {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    border: none;
+    padding: 0 0 0 18px;
+    font-size: $font_size--xxxs;
+    color: $font_color;
+    
+		&:hover {
+			color: $color_main;
+		}
+	}
+}
+
+.address-list-page {
+  
+	.add-button {
+		margin: 0 0 20px;
+		text-align: center;
+	}
+}
+
+.edit-address-button {
+	background: $edit-icon left center no-repeat;
+}
+
+.delete-address-button,
+.cancel-recurring-order-button {
+	background: $remove-icon left center no-repeat;
+}
+
+.retry-recurring-order-button {
+	background: $retry-icon left center no-repeat;
+}
+
+.return-items-button {
+	background: $return-icon left center no-repeat;
+}
+
+.order-details-button {
+	background: $details-icon left center no-repeat;
+}
+
+@media all and(min-width: 769px) {
+
+  .address-list-page,
+  .order-list-page {
+
+    .section {
+      display: inline-block;
+      width: 45%;
+      margin: 20px 1%;
+      vertical-align: top;
+    }
+  }
+}
+
+@media all and(min-width: 1001px) {
+
+	.address-list-page,
+	.order-list-page {
+
+		.section {
+			display: block;
+			width: auto;
+			margin: 0 0 40px;
+    }
+    
+		.buttons {
+			position: absolute;
+			top: 5px;
+			right: 10px;
+		}
+	}
+}

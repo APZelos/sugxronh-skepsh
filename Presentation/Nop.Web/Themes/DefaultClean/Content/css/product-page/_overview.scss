@@ -1,0 +1,246 @@
+.overview {
+	position: relative;
+  margin: 0 0 50px;
+  
+	.discontinued-product {
+		background: $color_concrete_approx;
+    margin: 0 0 20px;
+    
+		h4 {
+			display: inline-block;
+			font-size: $font_size--xs;
+			padding: 17px 17px 17px 40px;
+			background: $discontinued-product-icon no-repeat 13px center;
+			color: $color_valencia_approx;
+		}
+  }
+  
+	.product-name {
+		margin: 0 0 25px;
+		border-bottom: 1px solid $border_color;
+    padding: 0 0 10px;
+    
+		h1 {
+			font-size: $font_size--title;;
+			font-weight: normal;
+		}
+  }
+  
+	.short-description {
+		margin: 0 0 25px;
+		line-height: 22px;
+		color: $font_color;
+  }
+  
+	.value {
+    color: $font_color;
+    
+		a {
+      color: $color_main;
+      
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+  }
+  
+	.button-2 {
+		display: block;
+		width: 100%;
+		border: none;
+		background-color: $color_gray_nurse_approx;
+		background-position: left center;
+		background-repeat: no-repeat;
+		padding: 12px 15px 12px 40px;
+		text-align: left;
+		font-size: 14px;
+		color: $font_color--alt;
+    
+		&:hover {
+			background-color: $border_color;
+		}
+  }
+  
+	.add-to-compare-list-button {
+		background-image: $compare-button-icon;
+  }
+  
+	.email-a-friend-button {
+		background-image: $email-button-icon;
+  }
+  
+	.subscribe-button {
+		background-image: $email-button-icon;
+  }
+  
+	.download-sample-button {
+		background-image: $download-button-icon;
+  }
+  
+	.add-to-wishlist-button {
+		background-image: $wishlist-button-icon;
+  }
+  
+	.manufacturers {
+		margin: 0 0 20px;
+  }
+  
+	.availability {
+		margin: 0 0 20px;
+    overflow: hidden;
+    
+		.stock {
+			margin: 0 0 10px;
+    }
+    
+		.back-in-stock-subscription {
+			display: inline-block;
+		}
+  }
+  
+	.additional-details {
+    margin: 0 0 20px;
+    
+		div {
+			margin: 0 0 8px;
+		}
+  }
+  
+	.delivery {
+		overflow: hidden;
+  }
+  
+	.free-shipping {
+    display: none;
+    margin: 10px 0;
+    background: $shipping-icon left center no-repeat;
+    padding: 2px 0 2px 28px;
+    font-weight: bold;
+    color: $font_color;
+    
+		&.visible {
+			display: inline-block;
+		}
+  }
+  
+	.delivery-date {
+		margin: 10px 0;
+  }
+  
+	.min-qty-notification {
+    margin: 10px 0;
+    font-style: italic;
+    color: $font_color;
+  }
+  
+	.download-sample {
+		display: inline-block;
+		margin: 0 0 25px;
+  }
+  
+	.prices {
+		margin: 0 0 10px;
+    overflow: hidden;
+    
+		> div {
+      margin: 0 0 5px;
+      
+			> span {
+				vertical-align: middle;
+			}
+		}
+	}
+  .old-product-price,
+  .non-discounted-price {
+    font-size: $font_size--xs;
+    color: $color_mountain_mist_approx;
+    text-decoration: line-through;
+  }
+  
+	.product-price {
+    font-size: $font_size--xxl;
+    font-weight: bold;
+    color: $font_color;
+  }
+  
+	.add-to-cart {
+		margin: 0 0 20px;
+  }
+  
+	.add-to-cart-panel {
+		display: inline-block;
+    position: relative;
+    
+		> * {
+			float: left;
+		}
+  }
+  
+	.qty-label {
+		display: none !important;
+  }
+  
+	.qty-input {
+    width: 45px;
+    height: 43px;
+    padding: 0 12px;
+    text-align: center;
+    font-size: $font_size--s;
+    color: $font_color;
+  }
+  
+	.qty-dropdown {
+    height: 43px;
+    padding: 0 12px;
+    font-size: $font_size--s;
+    color: $font_color;
+  }
+  
+	.add-to-cart-button {
+    height: 43px;
+    border: none;
+    background-color: $color_main;
+    padding: 0 24px;
+    font-size: $font_size--s;
+    color: $white;
+    text-transform: uppercase;
+    
+		&:hover {
+			background-color: $color_main--active;
+		}
+  }
+  
+	.tax-shipping-info a {
+    color: $color_main;
+    
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.overview-buttons {
+	margin: 0 0 25px;
+	font-size: 0;
+	div {
+		width: 80%;
+		margin: 0 auto 3px;
+	}
+}
+
+@media all and(min-width: 481px) {
+
+	.overview-buttons div {
+		display: inline-block;
+		width: auto;
+		margin: 0 1px 2px;
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	.overview {
+		float: right;
+		width: 52%;
+	}
+}

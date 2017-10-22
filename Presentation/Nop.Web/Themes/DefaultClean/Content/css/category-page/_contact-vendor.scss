@@ -1,0 +1,16 @@
+.contact-vendor {
+  margin: 0 0 30px;
+  
+	.button-2 {
+		border: none;
+		background-color: $color_main;
+		padding: 10px 15px;
+		font-size: $font_size--xs;
+		color: $white;
+    text-transform: uppercase;
+    
+		&:hover {
+			background-color: $color_main--active;
+		}
+	}
+}

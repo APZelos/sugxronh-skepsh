@@ -1,0 +1,22 @@
+.date-of-birth {
+
+	.date-picker-wrapper {
+		display: inline;
+  }
+  
+	select {
+		width: 31%;
+    max-width: 126px;
+    
+		+ select {
+			margin: 0 0 0 10px;
+		}
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	.date-of-birth select + select {
+		margin: 0 0 0 11px;
+	}
+}

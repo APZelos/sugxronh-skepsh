@@ -1,0 +1,61 @@
+.ui-helper-hidden-accessible {
+	display: none !important;
+}
+
+.ui-autocomplete {
+	width: 285px !important;
+	border: 1px solid $border_color;
+	border-top: none;
+	overflow: hidden;
+	background-color: $white;
+	text-align: left;
+	border-radius: $border_radius;
+	padding: 0;
+    font: normal $font;
+    
+	li {
+        border-top: 1px solid $border_color;
+        
+		&:first-child {
+			border-top: none;
+		}
+    }
+    
+	a {
+		display: block;
+		font-size: $font_size--xs;;
+		margin: 0 !important;
+		border: none !important;
+		border-radius: $border_radius !important;
+		background: none !important;
+		padding: 15px !important;
+		line-height: normal !important;
+        color: $font_color--alt !important;
+        
+		&:hover {
+			background-color: $color_black_haze_approx !important;
+        }
+        
+		&.ui-state-focus {
+			background-color: $color_black_haze_approx !important;
+		}
+    }
+    
+	img {
+		display: none;
+		min-width: 20px;
+		margin: 0 10px 0 0;
+		vertical-align: middle;
+	}
+}
+
+@media all and(min-width: 481px) {
+
+	.ui-autocomplete {
+        width: 280px !important;
+        
+		img {
+			display: inline;
+		}
+    }
+}

@@ -1,0 +1,69 @@
+%border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	outline: none;
+	padding: 0;
+	text-decoration: none;
+  	@extend %border-box;
+  
+	&:before {
+		@extend %border-box;
+  	}
+  
+	&:after {
+		@extend %border-box;
+	}
+}
+
+html {
+	margin: 0;
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	background-color: $white;
+	font: normal $font_size--xs $font;
+	color: $font_color--alt;
+}
+
+script {
+	display: none !important;
+}
+
+h1 {
+	color: $font_color;
+}
+h2 {
+	color: $font_color;
+}
+h3 {
+	color: $font_color;
+}
+h4 {
+	color: $font_color;
+}
+h5 {
+	color: $font_color;
+}
+h6 {
+	color: $font_color;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+label {
+	vertical-align: middle;
+	+ * {
+		vertical-align: middle;
+	}
+}

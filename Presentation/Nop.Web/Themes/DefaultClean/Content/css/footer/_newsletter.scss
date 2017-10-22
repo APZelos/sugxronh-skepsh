@@ -1,0 +1,65 @@
+.newsletter-email {
+	display: inline-block;
+    overflow: hidden;
+    
+	input[type="email"] {
+		float: left;
+		width: 180px;
+		height: 36px;
+		margin: 0 -1px 0 0;
+    }
+    
+	.options {
+		clear: both;
+		padding: 10px 0 0;
+	}
+}
+
+.newsletter-subscribe-button {
+	float: left;
+	height: 36px;
+	border: none;
+	background-color: $color_main;
+	padding: 0 15px;
+	text-align: center;
+	color: $white;
+    text-transform: uppercase;
+    
+	&:hover {
+		background-color: $color_main--active;
+	}
+}
+
+.newsletter-validation,
+.newsletter-result {
+	width: 100%;
+	overflow: hidden;
+	line-height: 28px;
+}
+
+@media all and(min-width: 481px) {
+
+	.newsletter-email input[type="text"] {
+		width: 240px;
+	}
+}
+
+@media all and(min-width: 1001px) {
+
+	.newsletter-email {
+        display: block;
+        
+		input[type="text"] {
+			width: 200px;
+        }
+        
+		.newsletter-subscribe-button {
+			width: 100px;
+			padding: 0 5px;
+		}
+    }
+    
+	.newsletter-validation .field-validation-valid {
+		text-align: left;
+	}
+}

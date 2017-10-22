@@ -1,0 +1,10 @@
+.forum-breadcrumb {
+	margin: 0 0 40px;
+}
+
+@media all and(min-width: 1001px) {
+  
+	.forum-breadcrumb {
+		margin: -30px 0 30px;
+	}
+}

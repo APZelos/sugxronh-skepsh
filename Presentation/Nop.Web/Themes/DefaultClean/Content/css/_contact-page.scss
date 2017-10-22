@@ -1,0 +1,71 @@
+.contact-page,
+.email-a-friend-page,
+.apply-vendor-page {
+
+	.page-title {
+		margin: 0 0 -1px;
+  }
+  
+	.result {
+		margin: 20px 0;
+  }
+  
+	.message-error {
+		margin: 20px 0;
+  }
+  
+	.button-1 {
+		min-width: 140px;
+		border: none;
+		background-color: $color_main;
+		padding: 10px 30px;
+		text-align: center;
+		font-size: $font_size--s;
+		color: $white;
+		text-transform: uppercase;
+		
+		&:hover {
+			background-color: $color_main--active;
+		}
+  }
+}
+
+.contact-page {
+  
+	.topic-block {
+		margin: 25px 0;
+	}
+}
+
+.email-a-friend-page {
+	.title {
+		margin: 25px 0;
+		h2 {
+			font-weight: normal;
+			color: $color_main;
+		}
+	}
+}
+
+.apply-vendor-page {
+  
+	.accept-terms-of-service {
+		margin: 0 0 20px;
+		text-align: center;
+
+		> * {
+			display: inline-block;
+			line-height: 32px;
+		}
+
+		span {
+			color: $color_main;
+			cursor: pointer;
+		}
+
+		a {
+			color: $color_main;
+			cursor: pointer;
+		}
+	}
+}

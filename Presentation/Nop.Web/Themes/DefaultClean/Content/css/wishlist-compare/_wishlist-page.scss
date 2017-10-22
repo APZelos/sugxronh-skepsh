@@ -1,0 +1,28 @@
+.wishlist-page {
+
+	.page-title {
+		margin: 0 0 -1px;
+  }
+  
+	.share-info {
+    text-align: center;
+    
+		span {
+			display: block;
+			margin: 0 0 5px;
+    }
+    
+		a {
+			font-weight: bold;
+      color: $font_color;
+      
+			&:hover {
+				color: $color_main;
+			}
+		}
+  }
+  
+	.no-data {
+		margin: 25px 0 0;
+	}
+}

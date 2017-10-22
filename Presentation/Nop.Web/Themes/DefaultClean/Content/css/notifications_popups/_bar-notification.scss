@@ -1,0 +1,44 @@
+.bar-notification {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	padding: 15px 25px 15px 10px;
+	line-height: 16px;
+	color: $white;
+    opacity: 0.95;
+    
+	&.success {
+		background-color: $color_success;
+    }
+    
+	&.error {
+		background-color: $color_error;
+    }
+    
+	&.warning {
+		background-color: $color_warning;
+    }
+    
+	.content {
+        margin: 0 10px 0 0;
+        
+		a {
+			color: $white;
+			text-decoration: underline;
+		}
+    }
+    
+	.close {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 32px;
+		height: 32px;
+		margin: 7px;
+		background: $white $close-icon center no-repeat;
+		cursor: pointer;
+	}
+}
