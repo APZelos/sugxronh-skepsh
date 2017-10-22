@@ -1,45 +1,59 @@
 .search-box {
-    
-	form {
+
+    form {
         display: inline-block;
-        
-		&:after {
-			content: "";
-			display: block;
-			clear: both;
-		}
+
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
     }
-    
-	.search-box-button {
-		float: left;
-		min-width: 86px;
-		height: 36px;
-		border: none;
-		background-color: $color_main;
-		padding: 0 15px;
-		text-align: center;
-		color: $white;
+
+    .search-box-button {
+        float: left;
+        min-width: 86px;
+        height: 36px;
+        border: none;
+        background-color: white;
+        padding: 0 15px;
+        text-align: center;
+        color: $color_main;
         text-transform: uppercase;
-        
-		&:hover {
-			background-color: $color_main--active;
-		}
-	}
-	.ui-autocomplete-loading {
-		background: $white $ajax-loader-small-icon right center no-repeat;
+
+        &:hover {
+            background-color: $color_main--active;
+        }
     }
-    
-	input.search-box-text {
-		float: left;
-		width: 200px;
-		height: 36px;
-		margin: 0 -1px 0 0;
-	}
+
+    .ui-autocomplete-loading {
+        background: $white $ajax-loader-small-icon right center no-repeat;
+    }
+
+    input.search-box-text {
+        transition: width 1s ease-in, padding 1s ease-in;        
+        float: left;
+        width: 0;
+        height: 36px;
+        margin: 0 -1px 0 0;
+        border-bottom: 1px $color-main solid;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        padding-left: 0;
+        padding-right: 0;
+
+        &.open {
+            width: 200px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+    }
 }
 
 @media all and(min-width: 481px) {
 
-	.search-box input.search-box-text {
+	.search-box input.search-box-text.open {
 		width: 280px;
 	}
 }

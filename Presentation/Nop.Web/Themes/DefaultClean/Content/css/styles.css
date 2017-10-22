@@ -991,10 +991,10 @@ a {
   min-width: 86px;
   height: 36px;
   border: none;
-  background-color: #B71C1C;
+  background-color: white;
   padding: 0 15px;
   text-align: center;
-  color: #fff;
+  color: #B71C1C;
   text-transform: uppercase; }
   .search-box .search-box-button:hover {
     background-color: #881616; }
@@ -1003,13 +1003,24 @@ a {
   background: #fff url("../images/ajax-loader-small.gif") right center no-repeat; }
 
 .search-box input.search-box-text {
+  transition: width 1s ease-in, padding 1s ease-in;
   float: left;
-  width: 200px;
+  width: 0;
   height: 36px;
-  margin: 0 -1px 0 0; }
+  margin: 0 -1px 0 0;
+  border-bottom: 1px #B71C1C solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 0;
+  padding-right: 0; }
+  .search-box input.search-box-text.open {
+    width: 200px;
+    padding-left: 8px;
+    padding-right: 8px; }
 
 @media all and (min-width: 481px) {
-  .search-box input.search-box-text {
+  .search-box input.search-box-text.open {
     width: 280px; } }
 
 @media all and (min-width: 1001px) {
