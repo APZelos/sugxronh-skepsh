@@ -203,7 +203,7 @@ a {
 .data-table a,
 .forum-table a {
   font-weight: normal;
-  color: #4ab2f1; }
+  color: #B71C1C; }
   .cart a:hover,
   .data-table a:hover,
   .forum-table a:hover {
@@ -226,7 +226,7 @@ a {
     .cart .product a:hover,
     .data-table .product a:hover,
     .data-table .info a:hover {
-      color: #4ab2f1;
+      color: #B71C1C;
       text-decoration: none; }
 
 .cart td.subtotal {
@@ -234,10 +234,10 @@ a {
   color: #444; }
   .cart td.subtotal .discount {
     font-style: italic;
-    color: #4ab2f1; }
+    color: #B71C1C; }
   .cart td.subtotal .discount-additional-info {
     font-style: italic;
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .cart td.quantity input {
   width: 50px;
@@ -247,7 +247,7 @@ a {
   margin: 10px 0 0; }
   .cart .product .edit-item a {
     font-weight: normal;
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .cart .product .edit-item a:hover {
       text-decoration: underline; }
 
@@ -661,17 +661,18 @@ a {
       margin-bottom: 10px; }
     .ui-dialog-content .back-in-stock-subscription-page .button-1 {
       border: none;
-      background-color: #4ab2f1;
+      background-color: #B71C1C;
       padding: 10px 15px;
       font-size: 15px;
       color: #fff;
       text-transform: uppercase; }
       .ui-dialog-content .back-in-stock-subscription-page .button-1:hover {
-        background-color: #248ece; }
+        background-color: #881616; }
 
 .eu-cookie-bar-notification {
   position: fixed;
   top: 50%;
+  left: 50%;
   left: 50%;
   z-index: 1050;
   width: 320px;
@@ -689,15 +690,15 @@ a {
     min-width: 60px;
     margin: 5px 0 10px;
     border: none;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     padding: 8px 12px;
     font-size: 14px;
     color: #fff; }
     .eu-cookie-bar-notification button:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
   .eu-cookie-bar-notification a {
     display: block;
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .eu-cookie-bar-notification a:hover {
       text-decoration: underline; }
 
@@ -784,7 +785,7 @@ a {
   text-transform: uppercase; }
 
 .header-links a:hover {
-  color: #4ab2f1; }
+  color: #B71C1C; }
 
 .header-lower {
   position: relative;
@@ -887,7 +888,7 @@ a {
           color: #444;
           cursor: pointer; }
           .header-menu > ul > li > a:hover {
-            color: #4ab2f1; }
+            color: #B71C1C; }
     .header-menu .sublist {
       display: none;
       position: absolute;
@@ -991,13 +992,13 @@ a {
   min-width: 86px;
   height: 36px;
   border: none;
-  background-color: #4ab2f1;
+  background-color: #B71C1C;
   padding: 0 15px;
   text-align: center;
   color: #fff;
   text-transform: uppercase; }
   .search-box .search-box-button:hover {
-    background-color: #248ece; }
+    background-color: #881616; }
 
 .search-box .ui-autocomplete-loading {
   background: #fff url("../images/ajax-loader-small.gif") right center no-repeat; }
@@ -1084,7 +1085,7 @@ a {
   font-size: 14px; }
   .footer-block .title {
     margin: 0 0 1px;
-    background: #4ab2f1 url("../images/toggle-white.png") right center no-repeat;
+    background: #B71C1C url("../images/toggle-white.png") right center no-repeat;
     padding: 10px 15px;
     font-size: 20px;
     color: #fff;
@@ -1101,7 +1102,7 @@ a {
       padding: 10px 15px;
       line-height: 20px; }
       .footer-block .list a:hover {
-        color: #4ab2f1; }
+        color: #B71C1C; }
 
 .footer-lower {
   width: 95%;
@@ -1114,7 +1115,7 @@ a {
   margin: 10px 0 0; }
   .footer-powered-by a {
     font-weight: bold;
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .footer-powered-by a:hover {
       text-decoration: underline; }
 
@@ -1247,13 +1248,13 @@ a {
   float: left;
   height: 36px;
   border: none;
-  background-color: #4ab2f1;
+  background-color: #B71C1C;
   padding: 0 15px;
   text-align: center;
   color: #fff;
   text-transform: uppercase; }
   .newsletter-subscribe-button:hover {
-    background-color: #248ece; }
+    background-color: #881616; }
 
 .newsletter-validation,
 .newsletter-result {
@@ -1325,9 +1326,9 @@ a {
       height: 5px;
       background-color: #ddd; }
     .block .list a:hover {
-      color: #4ab2f1; }
+      color: #B71C1C; }
   .block .list .active > a {
-    color: #4ab2f1; }
+    color: #B71C1C; }
   .block .sublist {
     margin: 15px 0 5px; }
     .block .sublist a {
@@ -1338,7 +1339,7 @@ a {
       display: inline-block;
       padding: 10px 15px;
       font-size: 16px;
-      color: #4ab2f1; }
+      color: #B71C1C; }
       .block .view-all a:hover {
         text-decoration: underline; }
   .block .tags {
@@ -1364,7 +1365,7 @@ a {
     color: #444; }
     .block .tags li a a:hover,
     .product-tags-all-page li a:hover {
-      color: #4ab2f1; }
+      color: #B71C1C; }
 
 @media all and (max-width: 1000px) {
   .block-category-navigation {
@@ -1482,7 +1483,7 @@ a {
   .breadcrumb strong {
     font-weight: normal; }
   .breadcrumb a:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 @media all and (min-width: 1001px) {
   .breadcrumb {
@@ -1498,13 +1499,13 @@ a {
   margin: 0 0 30px; }
   .contact-vendor .button-2 {
     border: none;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     padding: 10px 15px;
     font-size: 14px;
     color: #fff;
     text-transform: uppercase; }
     .contact-vendor .button-2:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
 
 .product-selectors {
   margin: 0 0 20px;
@@ -1579,7 +1580,7 @@ a {
         display: inline-block;
         padding: 5px 0; }
         .product-filter .group li a:hover {
-          color: #4ab2f1; }
+          color: #B71C1C; }
       .product-filter .group li strong {
         display: inline-block;
         padding: 5px 0; }
@@ -1613,7 +1614,7 @@ a {
   font-style: italic; }
 
 .filtered-items .item {
-  color: #4ab2f1; }
+  color: #B71C1C; }
 
 .remove-filter {
   margin: 15px 0; }
@@ -1683,11 +1684,11 @@ a {
     font-size: 17px;
     line-height: 1.2;
     font-weight: normal;
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .item-box .product-title a {
       display: block; }
       .item-box .product-title a:hover {
-        color: #248ece; }
+        color: #881616; }
   .item-box .sku {
     margin: 0 0 15px; }
   .item-box .product-rating-box {
@@ -1727,13 +1728,13 @@ a {
     vertical-align: middle; }
   .item-box .product-box-add-to-cart-button {
     width: 60%;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     text-align: center;
     font-size: 15px;
     color: #fff;
     text-transform: uppercase; }
     .item-box .product-box-add-to-cart-button:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
   .item-box .add-to-compare-list-button,
   .item-box .add-to-wishlist-button {
     width: 20%;
@@ -1752,7 +1753,7 @@ a {
   .item-box:hover .picture a img {
     opacity: 0.85; }
   .item-box .tax-shipping-info a {
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .item-box .tax-shipping-info a:hover {
       text-decoration: underline; }
 
@@ -1875,7 +1876,7 @@ a {
   font-size: 16px; }
   .manufacturer-grid .title a:hover,
   .vendor-grid .title a:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .manufacturer-grid .picture,
 .vendor-grid .picture {
@@ -1921,7 +1922,7 @@ a {
       background-color: #ddd; }
     .pager li span {
       border-color: transparent;
-      background-color: #4ab2f1;
+      background-color: #B71C1C;
       color: #fff; }
     .pager li.previous-page *,
     .pager li.next-page *,
@@ -2037,7 +2038,7 @@ a {
   .overview .value {
     color: #444; }
     .overview .value a {
-      color: #4ab2f1; }
+      color: #B71C1C; }
       .overview .value a:hover {
         text-decoration: underline; }
   .overview .button-2 {
@@ -2136,15 +2137,15 @@ a {
   .overview .add-to-cart-button {
     height: 43px;
     border: none;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     padding: 0 24px;
     font-size: 15px;
     color: #fff;
     text-transform: uppercase; }
     .overview .add-to-cart-button:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
   .overview .tax-shipping-info a {
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .overview .tax-shipping-info a:hover {
       text-decoration: underline; }
 
@@ -2171,7 +2172,7 @@ a {
   .variant-overview .value {
     color: #444; }
     .variant-overview .value a {
-      color: #4ab2f1; }
+      color: #B71C1C; }
       .variant-overview .value a:hover {
         text-decoration: underline; }
   .variant-overview .button-2 {
@@ -2264,19 +2265,19 @@ a {
   .variant-overview .add-to-cart-button {
     height: 43px;
     border: none;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     padding: 0 24px;
     font-size: 15px;
     color: #fff;
     text-transform: uppercase; }
     .variant-overview .add-to-cart-button:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
   .variant-overview .variant-name {
     margin: 0 0 10px;
     padding: 10px 0;
     font-size: 16px;
     font-weight: bold;
-    color: #4ab2f1; }
+    color: #B71C1C; }
   .variant-overview .variant-description {
     margin: 0 0 15px;
     line-height: 22px; }
@@ -2285,7 +2286,7 @@ a {
   .variant-overview .add-to-cart {
     margin: 0 0 10px; }
   .variant-overview .tax-shipping-info a {
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .variant-overview .tax-shipping-info a:hover {
       text-decoration: underline; }
 
@@ -2451,7 +2452,7 @@ a {
     border: 1px solid #444 !important;
     cursor: pointer; }
   .attribute-squares .selected-value .attribute-square-container {
-    background-color: #4ab2f1; }
+    background-color: #B71C1C; }
 
 @media all and (min-width: 1001px) {
   .attributes {
@@ -2474,7 +2475,7 @@ a {
 .ui-datepicker-header {
   position: relative;
   height: 32px;
-  background-color: #4ab2f1;
+  background-color: #B71C1C;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -2529,9 +2530,9 @@ a {
     text-align: center;
     color: #444 !important; }
   .ui-datepicker-calendar .ui-state-active {
-    outline: 2px solid #4ab2f1;
+    outline: 2px solid #B71C1C;
     font-weight: bold;
-    color: #4ab2f1 !important; }
+    color: #B71C1C !important; }
 
 .tooltip-container {
   position: absolute;
@@ -2613,7 +2614,7 @@ a {
   margin: 0 0 20px; }
 
 .product-reviews-page h1 a {
-  color: #4ab2f1; }
+  color: #B71C1C; }
   .product-reviews-page h1 a:before {
     content: "''"; }
   .product-reviews-page h1 a:after {
@@ -2651,14 +2652,14 @@ a {
     margin: 15px 0 0; }
   .write-review .button-1 {
     border: none;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     padding: 10px 25px;
     text-align: center;
     font-size: 15px;
     color: #fff;
     text-transform: uppercase; }
     .write-review .button-1:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
 
 .product-review-list {
   overflow: hidden; }
@@ -2666,7 +2667,7 @@ a {
 .product-review-item .review-info a .product-review-helpfulness .vote {
   display: inline-block;
   padding: 0 5px;
-  color: #4ab2f1;
+  color: #B71C1C;
   cursor: pointer; }
 
 .product-review-item {
@@ -2735,7 +2736,7 @@ a {
     font-weight: bold;
     color: #444; }
     .wishlist-page .share-info a:hover {
-      color: #4ab2f1; }
+      color: #B71C1C; }
 
 .wishlist-page .no-data {
   margin: 25px 0 0; }
@@ -2753,7 +2754,7 @@ a {
     margin: 0 0 20px;
     text-align: center; }
     .wishlist-content .tax-shipping-info a {
-      color: #4ab2f1; }
+      color: #B71C1C; }
       .wishlist-content .tax-shipping-info a:hover {
         text-decoration: underline; }
   .wishlist-content .buttons {
@@ -2769,15 +2770,15 @@ a {
     font-size: 15px;
     color: #fff; }
   .wishlist-content .update-wishlist-button {
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     text-transform: uppercase; }
     .wishlist-content .update-wishlist-button:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
   .wishlist-content .wishlist-add-to-cart-button {
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     text-transform: uppercase; }
     .wishlist-content .wishlist-add-to-cart-button:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
   .wishlist-content .email-a-friend-wishlist-button {
     background-color: #aaa; }
     .wishlist-content .email-a-friend-wishlist-button:hover {
@@ -2796,13 +2797,13 @@ a {
   .compare-products-page .clear-list {
     display: inline-block;
     margin: 0 0 20px;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     padding: 10px 15px;
     font-size: 12px;
     color: #fff;
     text-transform: uppercase; }
     .compare-products-page .clear-list:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
   .compare-products-page .table-wrapper {
     margin: 0 0 30px;
     padding: 0 0 1px; }
@@ -2839,7 +2840,7 @@ a {
   font-size: 12px;
   color: #444; }
   .compare-products-table .remove-button:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .compare-products-table .picture {
   display: block;
@@ -2860,7 +2861,7 @@ a {
 .compare-products-table .product-name td {
   font-weight: bold; }
   .compare-products-table .product-name td a:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .compare-products-table .short-description td {
   line-height: 22px; }
@@ -2909,12 +2910,12 @@ a {
     min-width: 86px;
     height: 40px;
     border: none;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     padding: 0 15px;
     color: #fff;
     text-transform: uppercase; }
     .enter-password-form input[type="submit"]:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
 
 @media all and (min-width: 481px) {
   .enter-password-form input[type="password"] {
@@ -2940,7 +2941,7 @@ a {
 .apply-vendor-page .button-1 {
   min-width: 140px;
   border: none;
-  background-color: #4ab2f1;
+  background-color: #B71C1C;
   padding: 10px 30px;
   text-align: center;
   font-size: 15px;
@@ -2949,7 +2950,7 @@ a {
   .contact-page .button-1:hover,
   .email-a-friend-page .button-1:hover,
   .apply-vendor-page .button-1:hover {
-    background-color: #248ece; }
+    background-color: #881616; }
 
 .contact-page .topic-block {
   margin: 25px 0; }
@@ -2958,7 +2959,7 @@ a {
   margin: 25px 0; }
   .email-a-friend-page .title h2 {
     font-weight: normal;
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .apply-vendor-page .accept-terms-of-service {
   margin: 0 0 20px;
@@ -2967,10 +2968,10 @@ a {
     display: inline-block;
     line-height: 32px; }
   .apply-vendor-page .accept-terms-of-service span {
-    color: #4ab2f1;
+    color: #B71C1C;
     cursor: pointer; }
   .apply-vendor-page .accept-terms-of-service a {
-    color: #4ab2f1;
+    color: #B71C1C;
     cursor: pointer; }
 
 .gender {
@@ -3025,10 +3026,10 @@ a {
     display: inline-block;
     line-height: 32px; }
   .accept-privacy-policy span {
-    color: #4ab2f1;
+    color: #B71C1C;
     cursor: pointer; }
   .accept-privacy-policy a {
-    color: #4ab2f1;
+    color: #B71C1C;
     cursor: pointer; }
 
 .registration-page .button-1,
@@ -3039,7 +3040,7 @@ a {
 .return-request-page .button-1 {
   min-width: 140px;
   border: none;
-  background-color: #4ab2f1;
+  background-color: #B71C1C;
   padding: 10px 30px;
   text-align: center;
   font-size: 15px;
@@ -3051,7 +3052,7 @@ a {
   .password-recovery-page .button-1:hover,
   .account-page .button-1:hover,
   .return-request-page .button-1:hover {
-    background-color: #248ece; }
+    background-color: #881616; }
 
 .registration-page .message-error,
 .login-page .message-error,
@@ -3115,7 +3116,7 @@ a {
       font-size: 14px;
       color: #444; }
     .login-page .returning-wrapper .inputs.reversed a:hover {
-      color: #4ab2f1; }
+      color: #B71C1C; }
 
 .login-page .captcha-box {
   margin: -15px 0 20px; }
@@ -3144,7 +3145,7 @@ a {
     display: inline-block; }
 
 .return-request-page h1 a {
-  color: #4ab2f1; }
+  color: #B71C1C; }
 
 .customer-info-page .email-to-revalidate {
   margin: 0 5px;
@@ -3224,14 +3225,14 @@ a {
 .external-auth-association {
   color: #444; }
   .external-auth-association a {
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .external-auth-association a:hover {
       text-decoration: underline; }
 
 .add-more-external-records {
   text-align: center; }
   .add-more-external-records a {
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .add-more-external-records a:hover {
       text-decoration: underline; }
 
@@ -3258,7 +3259,7 @@ a {
   color: #444; }
   .address-list-page .button-2:hover,
   .order-list-page .button-2:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .address-list-page .add-button {
   margin: 0 0 20px;
@@ -3337,7 +3338,7 @@ a {
   margin: 0 5px 0 0; }
 
 .return-request-list-page a {
-  color: #4ab2f1; }
+  color: #B71C1C; }
   .return-request-list-page a:hover {
     text-decoration: underline; }
 
@@ -3483,7 +3484,7 @@ a {
   margin: 20px 0;
   text-align: center; }
   .shopping-cart-page .tax-shipping-info a {
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .shopping-cart-page .tax-shipping-info a:hover {
       text-decoration: underline; }
 
@@ -3504,9 +3505,9 @@ a {
     .shopping-cart-page .common-buttons input:hover {
       background-color: #999; }
     .shopping-cart-page .common-buttons input:first-child {
-      background-color: #4ab2f1; }
+      background-color: #B71C1C; }
       .shopping-cart-page .common-buttons input:first-child:hover {
-        background-color: #248ece; }
+        background-color: #881616; }
 
 .shopping-cart-page .no-data {
   margin: 25px 0 0; }
@@ -3516,7 +3517,7 @@ a {
   text-align: left; }
 
 .shopping-cart-page .checkout-attributes a {
-  color: #4ab2f1; }
+  color: #B71C1C; }
   .shopping-cart-page .checkout-attributes a:hover {
     text-decoration: underline; }
 
@@ -3595,13 +3596,13 @@ a {
     display: inline-block;
     min-width: 160px;
     border: none;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
     text-transform: uppercase; }
     .cart-footer .checkout-button:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
   .cart-footer .addon-buttons {
     margin: 20px 0 0;
     padding: 0 10px; }
@@ -3665,7 +3666,7 @@ a {
 
 .cart-total .order-total {
   font-size: 20px;
-  color: #4ab2f1; }
+  color: #B71C1C; }
   .cart-total .order-total strong {
     font-weight: normal; }
 
@@ -3684,7 +3685,7 @@ a {
     cursor: pointer; }
   .terms-of-service a {
     margin: 0 0 0 3px;
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .cart-collaterals {
   width: 350px;
@@ -3776,14 +3777,14 @@ a {
   display: inline-block;
   min-width: 140px;
   border: none;
-  background-color: #4ab2f1;
+  background-color: #B71C1C;
   padding: 10px 30px;
   text-align: center;
   font-size: 15px;
   color: #fff;
   text-transform: uppercase; }
   .checkout-page .button-1:hover {
-    background-color: #248ece; }
+    background-color: #881616; }
 
 .checkout-page .address-item {
   width: 350px;
@@ -4041,15 +4042,15 @@ a {
     padding: 0 0 0 18px;
     color: #444; }
     .opc .back-link a:hover {
-      color: #4ab2f1; }
+      color: #B71C1C; }
 
 .opc .allow .step-title {
-  background-color: #4ab2f1;
+  background-color: #B71C1C;
   cursor: pointer; }
   .opc .allow .step-title .number {
     color: #fff;
     cursor: pointer;
-    background-color: #248ece; }
+    background-color: #881616; }
   .opc .allow .step-title .title {
     color: #fff;
     cursor: pointer; }
@@ -4080,9 +4081,9 @@ a {
     .order-details-page .page-title a:hover {
       background-color: #999; }
     .order-details-page .page-title a.print-order-button {
-      background-color: #4ab2f1; }
+      background-color: #B71C1C; }
       .order-details-page .page-title a.print-order-button:hover {
-        background-color: #248ece; }
+        background-color: #881616; }
 
 .order-details-page .order-overview {
   margin: 0 0 50px;
@@ -4095,12 +4096,12 @@ a {
     text-transform: uppercase; }
   .order-details-page .order-overview .order-total strong {
     font-weight: normal;
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .order-details-page .tax-shipping-info {
   margin: 30px 0; }
   .order-details-page .tax-shipping-info a {
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .order-details-page .tax-shipping-info a:hover {
       text-decoration: underline; }
 
@@ -4120,9 +4121,9 @@ a {
     .order-details-page .actions input:hover {
       background-color: #999; }
     .order-details-page .actions input:first-child {
-      background-color: #4ab2f1; }
+      background-color: #B71C1C; }
       .order-details-page .actions input:first-child:hover {
-        background-color: #248ece; }
+        background-color: #881616; }
 
 .order-details-page .total-info {
   background-color: #f9f9f9;
@@ -4133,17 +4134,17 @@ a {
   display: inline-block;
   margin: 10px 0;
   border: none;
-  background-color: #4ab2f1;
+  background-color: #B71C1C;
   padding: 10px 15px;
   font-size: 12px;
   color: #fff;
   text-transform: uppercase; }
   .order-details-page .repost .button-2:hover {
-    background-color: #248ece; }
+    background-color: #881616; }
 
 .order-details-page .download a {
   font-weight: normal;
-  color: #4ab2f1; }
+  color: #B71C1C; }
   .order-details-page .download a:hover {
     text-decoration: underline; }
 
@@ -4217,14 +4218,14 @@ a {
 .user-agreement-page .button-1 {
   min-width: 140px;
   border: none;
-  background-color: #4ab2f1;
+  background-color: #B71C1C;
   padding: 10px 30px;
   text-align: center;
   font-size: 15px;
   color: #fff;
   text-transform: uppercase; }
   .user-agreement-page .button-1:hover {
-    background-color: #248ece; }
+    background-color: #881616; }
 
 .search-input .fieldset {
   margin: 0 0 30px; }
@@ -4238,14 +4239,14 @@ a {
 .search-input .button-1 {
   min-width: 140px;
   border: none;
-  background-color: #4ab2f1;
+  background-color: #B71C1C;
   padding: 10px 30px;
   text-align: center;
   font-size: 15px;
   color: #fff;
   text-transform: uppercase; }
   .search-input .button-1:hover {
-    background-color: #248ece; }
+    background-color: #881616; }
 
 .search-input input + label {
   display: inline;
@@ -4316,7 +4317,7 @@ a {
 .sitemap-page a {
   color: #444; }
   .sitemap-page a:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
   .sitemap-page a:empty {
     display: none; }
 
@@ -4357,7 +4358,7 @@ a {
   .blog-page .tags a,
   .blogpost-page .tags a {
     display: block;
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .blog-page .tags a:hover,
     .blogpost-page .tags a:hover {
       text-decoration: underline; }
@@ -4380,14 +4381,14 @@ a {
   .blog-posts .buttons .read-more {
     display: inline-block;
     border: none;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     padding: 10px 20px;
     font-size: 12px;
     color: #fff;
     text-transform: uppercase; }
     .news-items .buttons .read-more:hover,
     .blog-posts .buttons .read-more:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
 
 .news-items .news-item {
   margin: 0 0 30px; }
@@ -4398,7 +4399,7 @@ a {
   font-weight: bold;
   color: #444; }
   .blog-posts .buttons .read-comments:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 @media all and (min-width: 769px) {
   .blog-posts .tags {
@@ -4420,7 +4421,7 @@ a {
   color: #444; }
   .post-title:hover,
   .news-title:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .post-date,
 .news-date {
@@ -4441,14 +4442,14 @@ a {
     margin: 0 0 20px; }
   .new-comment .button-1 {
     border: none;
-    background-color: #4ab2f1;
+    background-color: #B71C1C;
     padding: 10px 30px;
     text-align: center;
     font-size: 15px;
     color: #fff;
     text-transform: uppercase; }
     .new-comment .button-1:hover {
-      background-color: #248ece; }
+      background-color: #881616; }
 
 @media all and (min-width: 769px) {
   .new-comment {
@@ -4513,7 +4514,7 @@ a {
       margin: auto;
       border: solid 2px #cedbe1 !important; }
   .comment-info a.username:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 @media all and (min-width: 769px) {
   .comment-info {
@@ -4582,7 +4583,7 @@ a {
       color: #444;
       text-decoration: underline; }
       .news-list-homepage .view-all a:hover {
-        color: #4ab2f1; }
+        color: #B71C1C; }
 
 @media all and (min-width: 1001px) {
   .news-list-homepage .news-items {
@@ -4644,7 +4645,7 @@ a {
   color: #444;
   text-decoration: underline; }
   .forum-search-box .advanced a:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 @media all and (min-width: 1001px) {
   .forum-search-box {
@@ -4675,7 +4676,7 @@ a {
       color: #444; }
       .forums-table-section .forum-title a:hover,
       .forums-table-section .topic-title a:hover {
-        color: #4ab2f1;
+        color: #B71C1C;
         text-decoration: none; }
     .forums-table-section .forum-title span,
     .forums-table-section .topic-title span {
@@ -4694,13 +4695,13 @@ a {
     margin: 30px 0 0;
     padding: 0 10px; }
     .forums-table-section .view-all a {
-      background-color: #4ab2f1;
+      background-color: #B71C1C;
       padding: 10px 15px;
       font-size: 12px;
       color: #fff;
       text-transform: uppercase; }
       .forums-table-section .view-all a:hover {
-        background-color: #248ece; }
+        background-color: #881616; }
   .forums-table-section + .pager {
     margin: -30px 0 30px; }
   .forums-table-section .image div {
@@ -4736,7 +4737,7 @@ a {
     font-weight: normal;
     color: #444; }
   .forums-table-section-title a:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .forum-page .forum-name,
 .forum-topic-page .topic-name {
@@ -4930,16 +4931,16 @@ a {
       padding: 10px 10px 10px 33px;
       background: url("../images/edit_.png") left center no-repeat; }
       .topic-post .post-actions .edit-post-button:hover {
-        color: #4ab2f1; }
+        color: #B71C1C; }
     .topic-post .post-actions .delete-post-button {
       padding: 10px 10px 10px 33px;
       background: url("../images/remove_.png") left center no-repeat; }
       .topic-post .post-actions .delete-post-button:hover {
-        color: #4ab2f1; }
+        color: #B71C1C; }
     .topic-post .post-actions .post-link-button {
       padding: 10px;
       font-weight: bold;
-      color: #4ab2f1; }
+      color: #B71C1C; }
       .topic-post .post-actions .post-link-button:hover {
         text-decoration: underline; }
     .topic-post .post-actions .quote-post-button {
@@ -4984,7 +4985,7 @@ a {
     display: block;
     font-size: 160%; }
   .topic-post a.username:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .profile-info-box {
   overflow: hidden;
@@ -5023,7 +5024,7 @@ a {
       font-weight: bold;
       color: #444; }
       .latest-posts .topic-title a:hover {
-        color: #4ab2f1; }
+        color: #B71C1C; }
   .latest-posts .topic-body {
     margin: 0 0 15px;
     line-height: 22px; }
@@ -5142,11 +5143,11 @@ a {
 .forum-edit-page .buttons .button-1,
 .move-topic-page .buttons .button-1,
 .private-message-send-page .buttons .button-1 {
-  background-color: #4ab2f1; }
+  background-color: #B71C1C; }
   .forum-edit-page .buttons .button-1:hover,
   .move-topic-page .buttons .button-1:hover,
   .private-message-send-page .buttons .button-1:hover {
-    background-color: #248ece; }
+    background-color: #881616; }
 
 .forum-edit-page .message-error,
 .private-message-send-page .message-error {
@@ -5197,7 +5198,7 @@ a {
 
 .private-message-send-page a {
   font-size: 14px;
-  color: #4ab2f1; }
+  color: #B71C1C; }
 
 .private-message-send-page span {
   font-size: 14px; }
@@ -5236,7 +5237,7 @@ a {
   .private-messages-page td.subject a {
     color: #444; }
     .private-messages-page td.subject a.pm-unread {
-      color: #4ab2f1; }
+      color: #B71C1C; }
 
 .private-messages-page td.date {
   white-space: nowrap; }
@@ -5340,7 +5341,7 @@ a {
       padding: 12px 24px !important; }
     .ui-tabs-nav li.ui-state-active a {
       background-color: #eee;
-      color: #4ab2f1; }
+      color: #B71C1C; }
 
 .ui-tabs-panel {
   padding: 0 !important; }
@@ -5351,7 +5352,7 @@ pre {
 
 .footer-tax-shipping a {
   font-weight: bold;
-  color: #4ab2f1; }
+  color: #B71C1C; }
   .footer-tax-shipping a:hover {
     text-decoration: underline; }
 
@@ -5363,7 +5364,7 @@ pre {
 .product-review-links a {
   text-decoration: underline; }
   .product-review-links a:hover {
-    color: #4ab2f1; }
+    color: #B71C1C; }
 
 .home-page .topic-block {
   margin: 0 0 50px; }
@@ -5419,7 +5420,7 @@ pre {
     font-weight: normal;
     text-transform: uppercase; }
   .order-completed .details a {
-    color: #4ab2f1; }
+    color: #B71C1C; }
     .order-completed .details a:hover {
       text-decoration: underline; }
 
@@ -5438,7 +5439,7 @@ pre {
     background-color: #888; }
 
 .private-messages .buttons .button-1 {
-  background-color: #4ab2f1; }
+  background-color: #B71C1C; }
   .private-messages .buttons .button-1:hover {
-    background-color: #248ece; }
+    background-color: #881616; }
 
