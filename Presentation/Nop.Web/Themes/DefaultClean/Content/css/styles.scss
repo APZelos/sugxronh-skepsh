@@ -475,3 +475,419 @@ pre {
 		}
 	}
 }
+
+// Media query
+@media all and(min-width: 481px) {
+    .ui-tabs-nav li {
+        display: inline-block;
+        min-width: 150px;
+        margin: 0 5px -1px !important;
+    }
+
+    .private-messages-page .buttons {
+        .button-1 {
+            display: inline-block;
+            width: auto;
+            margin: 1px;
+        }
+
+        .button-2 {
+            display: inline-block;
+            width: auto;
+            margin: 1px;
+        }
+    }
+
+    .private-message-view-page .buttons {
+        .button-1 {
+            display: inline-block;
+            width: auto;
+            margin: 1px;
+        }
+
+        .button-2 {
+            display: inline-block;
+            width: auto;
+            margin: 1px;
+        }
+    }
+}
+
+@media all and(min-width: 769px) {
+    .variant-picture {
+        float: left;
+
+        + .variant-overview {
+            width: auto;
+            margin: 0 0 0 240px;
+        }
+    }
+
+    .cart-options {
+        .common-buttons {
+            text-align: right;
+        }
+
+        .checkout-attributes {
+            padding: 0 10px;
+        }
+
+        .selected-checkout-attributes {
+            padding: 0 10px;
+        }
+    }
+
+    .comment-content {
+        display: table-cell;
+        width: 85%;
+        border-left: 1px solid $border_color;
+        vertical-align: top;
+        text-align: left;
+    }
+
+    .topic-posts {
+        margin: 0 0 30px;
+    }
+
+    .ui-tabs-nav {
+        text-align: left;
+
+        li {
+            margin: 0 10px -1px 0 !important;
+        }
+    }
+
+    .payment-info .info {
+        padding: 30px 75px;
+    }
+
+    .shipment-details-page .tracking-number .tracking-url {
+        color: $color_main;
+    }
+}
+
+
+@media all and(max-width: 1000px) {
+
+    .menu-toggle {
+        background: $color_main $menu-icon right center no-repeat;
+        padding: 15px;
+        font-size: $font_size--s;
+        ;
+        font-weight: bold;
+        color: $white;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .top-menu {
+        display: none;
+
+        > li {
+            position: relative;
+            margin: 1px 0;
+            background-color: $color_black_haze_approx;
+
+            > a {
+                display: block;
+                min-height: 55px;
+                padding: 18px;
+                font-size: $font_size--s;
+                ;
+                color: $font_color;
+            }
+        }
+
+        .sublist {
+            display: none;
+            background-color: $white;
+            padding: 5px 0;
+
+            li {
+                position: relative;
+                margin: 1px 0 1px 20px;
+
+                a {
+                    display: block;
+                    padding: 15px 18px;
+                    font-size: $font_size--s;
+                    ;
+                }
+            }
+        }
+    }
+
+    .sublist-toggle {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 55px;
+        height: 55px;
+        border-left: 1px solid $white;
+        background: $toggle-black-icon center no-repeat;
+        padding: 15px;
+        font-size: $font_size--s;
+        ;
+        font-weight: bold;
+        color: $white;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .sublist {
+
+        .sublist-toggle {
+            height: 49px;
+        }
+
+        .sublist {
+
+            li {
+                background-color: $color_black_haze_approx;
+            }
+
+            .sublist li {
+                background-color: $white;
+            }
+        }
+    }
+}
+
+
+@media all and(min-width: 1001px) {
+    .inputs {
+        text-align: left;
+
+        label {
+            display: inline-block;
+            width: 265px;
+            margin: 0 10px 0 0;
+            text-align: right;
+        }
+
+        input[type="text"] {
+            min-height: 40px;
+        }
+
+        input[type="email"] {
+            min-height: 40px;
+        }
+
+        input[type="tel"] {
+            min-height: 40px;
+        }
+
+        input[type="password"] {
+            min-height: 40px;
+        }
+
+        select {
+            min-height: 40px;
+        }
+
+        .option-list li {
+            margin: 0 10px 0 0;
+        }
+    }
+
+    .link-rss {
+        display: block;
+        float: right;
+        margin: 6px 0 0;
+    }
+
+    .cart {
+        tr {
+            width: auto;
+            margin: 0;
+        }
+
+        label {
+            display: none;
+        }
+    }
+
+    .flyout-cart {
+        position: absolute;
+        top: 45px;
+        right: 0;
+        z-index: 100;
+        width: 300px;
+        //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: 0 0 2px $color_shadow;
+        background-color: $white;
+
+        &.active {
+            display: block;
+        }
+    }
+
+    .mini-shopping-cart {
+        padding: 12px;
+        text-align: left;
+        font-size: $font_size--xxxs;
+        ;
+
+        .count {
+            padding: 5px 0 15px;
+            color: $font_color;
+
+            a {
+                margin: 0 2px;
+                font-weight: bold;
+                color: $font_color;
+            }
+        }
+
+        .items {
+            border-top: 1px solid $border_color;
+            border-bottom: 1px solid $border_color;
+            margin: 0 0 20px;
+        }
+
+        .item {
+            overflow: hidden;
+            padding: 10px 0;
+        }
+
+        .picture {
+            float: left;
+            width: 70px;
+            text-align: center;
+
+            a {
+                display: block;
+                position: relative;
+                overflow: hidden;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    padding-top: 100%;
+                }
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+                max-width: 100%;
+            }
+
+            + .product {
+                margin: 0 0 0 80px;
+            }
+        }
+
+        .name {
+            margin: 0 0 10px;
+            font-size: $font_size--xs;
+            ;
+
+            a {
+                color: $color_main;
+
+                &:hover {
+                    color: $color_main--active;
+                }
+            }
+        }
+
+        .totals {
+            margin: 0 0 12px;
+            font-size: $font_size--xs;
+            ;
+
+            strong {
+                font-size: $font_size--m;
+                ;
+                color: $font_color;
+            }
+        }
+
+        .buttons {
+            margin: 0 0 5px;
+        }
+
+        input[type="button"] {
+            display: inline-block;
+            border: none;
+            background-color: $color_main;
+            padding: 10px 20px;
+            font-size: $font_size--xxxs;
+            ;
+            color: $white;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: $color_main--active;
+            }
+        }
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .sublist-toggle {
+        display: none;
+    }
+
+    .rental-attributes {
+        overflow: hidden;
+
+        .attribute-item {
+            float: left;
+            margin: 0 20px 0 0;
+        }
+
+        .datepicker {
+            width: 160px;
+            text-align: left;
+        }
+    }
+
+    .current-time {
+        float: right;
+    }
+
+    .topic-page p {
+        text-align: justify;
+    }
+
+    .payment-info .info {
+        padding: 30px 15px;
+
+        td {
+            &:first-child {
+                width: 265px !important;
+                margin: 0 10px 0 0;
+                text-align: right;
+            }
+
+            &:only-child {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+
+@media all and(min-width: 1367px) {
+    .inputs label {
+        width: 375px;
+    }
+
+    .payment-info .info td {
+        &:first-child {
+            width: 375px !important;
+        }
+
+        &:only-child {
+            width: 100% !important;
+        }
+    }
+}
