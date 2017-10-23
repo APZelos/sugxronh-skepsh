@@ -4,8 +4,9 @@
 {
     <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" placeholder="@T("Search.SearchBox.Tooltip")" />
     @Html.Widget("searchbox_before_search_button")
-    @*<input type="submit" class="button-1 search-box-button fa fa-search" value="@T("Search.Button")" />*@
     <i id="search-box-button" class="button-1 search-box-button fa fa-search" title="@T("Search.Button")"></i>
+    <a href="@Url.RouteUrl("CustomerInfo")" title="@T("Account.MyAccount")" class="button-1 search-box-button fa fa-user"></a>
+
     <script type="text/javascript">
         var isSearchBoxOpen = false;
         $("#search-box-button").click(function () {
@@ -14,6 +15,7 @@
             isSearchBoxOpen = !isSearchBoxOpen;
         });
     </script>
+
     if (Model.SearchTermMinimumLength > 0)
     {
         <script type="text/javascript">
