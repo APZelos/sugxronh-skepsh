@@ -59,6 +59,14 @@ $breakpoint_xl: 1367px;
 // Shadow
 $shadow_product-image: 5px 5px 16px rgba(0, 0, 0, 0.16);
 
+// Space
+$space: 90px;
+$space--s: $space / 2;
+$space--xs: $space--s / 2;
+$space--xxs: $space--xs / 2;
+$space--l: $space * 2;
+$space--xl: $space--l * 2;
+$space--xxl: $space--xl * 2;
 // URLS
 $rss-icon: url("../images/rss.png");
 $close-icon: url("../images/close.png");
