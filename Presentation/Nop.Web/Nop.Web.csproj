@@ -670,6 +670,10 @@
       <DependentUpon>styles.css</DependentUpon>
     </Content>
     <Content Include="Themes\DefaultClean\Content\css\styles.rtl.css" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\css\font-awesome.css" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\HELP-US-OUT.txt" />
     <Content Include="Themes\DefaultClean\Content\images\ajax-loader-small.gif" />
     <Content Include="Themes\DefaultClean\Content\images\back-button.png" />
     <Content Include="Themes\DefaultClean\Content\images\calendar-next.png" />
@@ -1169,6 +1173,39 @@
     <Content Include="Themes\DefaultClean\Content\css\_csharpcode.scss" />
     <Content Include="Themes\DefaultClean\Content\css\_forms.scss" />
     <Content Include="Themes\DefaultClean\Content\css\_private-messages-page.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\animated.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\core.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\fixed-width.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\font-awesome.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\icons.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\larger.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\list.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\mixins.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\path.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\screen-reader.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\stacked.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\less\variables.less" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_animated.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_core.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_icons.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_larger.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_list.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_mixins.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_path.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_stacked.scss" />
+    <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_variables.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Plugins\bin\" />
