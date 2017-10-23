@@ -33,7 +33,7 @@
                 -webkit-transition: all 0.3s ease;
                 transition: all 0.3s ease;
                 -webkit-transform: translateZ(0) scale(1.0, 1.0);
-                box-shadow: 5px 5px 16px rgba(0,0,0,0.16);
+                box-shadow: $shadow_product-image;
             }
         }
     }
