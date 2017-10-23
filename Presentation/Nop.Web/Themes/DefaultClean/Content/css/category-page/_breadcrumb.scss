@@ -1,30 +1,36 @@
 .breadcrumb {
-	margin: 0 0 50px;
-	background-color: $color_black_haze_approx;
+    margin: 0 0 50px;
+    /*background-color: $color_black_haze_approx;*/
     padding: 5px 10px;
-    
-	ul {
-		font-size: 0;
+
+    ul {
+        font-size: 0;
     }
-    
-	li {
+
+    li {
         display: inline-block;
-        
-		* {
-			display: inline-block;
-			margin: 0 5px;
-			font-size: $font_size--xs;;
-			line-height: 32px;
-		}
+
+        * {
+            display: inline-block;
+            margin: 0 5px;
+            font-size: $font_size--xs;
+            font-weight: bold;
+            line-height: 32px;
+        }
+
+        .delimiter {
+            color: $color_main;
+            font-size: $font_size--xl;
+        }
     }
-    
-	strong {
-		font-weight: normal;
+
+    strong {
+        font-weight: normal;
     }
-    
-	a:hover {
-		color: $color_main;
-	}
+
+    a:hover {
+        color: $color_main;
+    }
 }
 
 @media all and(min-width: 1001px) {

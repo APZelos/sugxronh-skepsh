@@ -1481,7 +1481,7 @@ a {
 
 .breadcrumb {
   margin: 0 0 50px;
-  background-color: #f6f6f6;
+  /*background-color: $color_black_haze_approx;*/
   padding: 5px 10px; }
   .breadcrumb ul {
     font-size: 0; }
@@ -1491,7 +1491,11 @@ a {
       display: inline-block;
       margin: 0 5px;
       font-size: 14px;
+      font-weight: bold;
       line-height: 32px; }
+    .breadcrumb li .delimiter {
+      color: #B71C1C;
+      font-size: 18px; }
   .breadcrumb strong {
     font-weight: normal; }
   .breadcrumb a:hover {
