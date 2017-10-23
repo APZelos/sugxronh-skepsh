@@ -1490,7 +1490,7 @@ a {
     .breadcrumb li * {
       display: inline-block;
       margin: 0 5px;
-      font-size: 20px;
+      font-size: 24px;
       line-height: 32px; }
     .breadcrumb li .delimiter {
       color: #B71C1C; }
@@ -1501,7 +1501,11 @@ a {
 
 @media all and (min-width: 1001px) {
   .breadcrumb {
-    margin: 0 0 90px; } }
+    margin: 0 0 45px; } }
+
+@media all and (max-width: 769px) {
+  .breadcrumb li * {
+    font-size: 14px; } }
 
 .category-description,
 .manufacturer-description,

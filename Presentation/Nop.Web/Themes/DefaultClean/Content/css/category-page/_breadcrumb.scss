@@ -13,7 +13,7 @@
         * {
             display: inline-block;
             margin: 0 5px;
-            font-size: $font_size--xxl;
+            font-size: $font_size--title-s;
             line-height: 32px;
         }
 
@@ -33,7 +33,20 @@
 
 @media all and(min-width: 1001px) {
 
-	.breadcrumb {
-		margin: 0 0 $space;
-	}
+    .breadcrumb {
+        margin: 0 0 $space--s;
+    }
+}
+
+@media all and(max-width: 769px) {
+
+    .breadcrumb {
+
+        li {
+
+            * {
+                font-size: $font_size--xs;
+            }
+        }
+    }
 }
