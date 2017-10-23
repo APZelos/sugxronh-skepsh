@@ -1490,12 +1490,10 @@ a {
     .breadcrumb li * {
       display: inline-block;
       margin: 0 5px;
-      font-size: 14px;
-      font-weight: bold;
+      font-size: 20px;
       line-height: 32px; }
     .breadcrumb li .delimiter {
-      color: #B71C1C;
-      font-size: 18px; }
+      color: #B71C1C; }
   .breadcrumb strong {
     font-weight: normal; }
   .breadcrumb a:hover {
