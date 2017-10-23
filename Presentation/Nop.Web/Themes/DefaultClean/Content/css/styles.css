@@ -987,24 +987,26 @@ a {
     clear: both; }
 
 .search-box .search-box-button {
-  float: left;
+  /*float: left;*/
   min-width: 86px;
   height: 36px;
   border: none;
   background-color: white;
   padding: 0 15px;
+  font-size: 30px;
+  line-height: 36px;
   text-align: center;
   color: #B71C1C;
   text-transform: uppercase; }
   .search-box .search-box-button:hover {
-    background-color: #881616; }
+    color: #881616; }
 
 .search-box .ui-autocomplete-loading {
   background: #fff url("../images/ajax-loader-small.gif") right center no-repeat; }
 
 .search-box input.search-box-text {
   transition: width 1s ease-in, padding 1s ease-in;
-  float: left;
+  /*float: left;*/
   width: 0;
   height: 36px;
   margin: 0 -1px 0 0;
