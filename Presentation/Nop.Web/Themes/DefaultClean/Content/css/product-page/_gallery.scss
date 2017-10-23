@@ -1,75 +1,79 @@
 .gallery .picture img,
 .gallery .picture-thumbs img,
-.variant-picture  {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	max-width: 100%;
-	max-height: 100%;
-	margin: auto;
+.variant-picture {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*bottom: 0;*/
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
 }
 
 .gallery {
-  margin: 0 auto 50px;
-  
-	.picture-wrapper {
-		margin: 0 0 10px;
-  }
-  
-	.picture {
-		position: relative;
-		max-width: 100%;
-		margin: 0 auto 10px;
-    overflow: hidden;
-    
-		&:before {
-			content: "";
-			display: block;
-			padding-top: 100%;
+    margin: 0 auto 50px;
+
+    .picture-wrapper {
+        margin: 0 0 10px;
     }
-  }
-  
-	.picture-thumbs {
-		overflow: hidden;
-    font-size: 0;
-    
-		.thumb-item {
-			display: inline-block;
-			position: relative;
-			width: 100px;
-			height: 100px;
-			margin: 0 5px 10px;
-			overflow: hidden;
-			cursor: pointer;
-		}
-	}
+
+    .picture {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto 10px;
+        overflow: hidden;
+
+        &:before {
+            content: "";
+            display: block;
+            padding-top: 100%;
+        }
+
+        img {
+            box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.16);
+        }
+    }
+
+    .picture-thumbs {
+        overflow: hidden;
+        font-size: 0;
+
+        .thumb-item {
+            display: inline-block;
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 5px 10px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+    }
 }
 
 .variant-picture {
-	position: relative;
-	width: 220px;
-	height: 220px;
-	margin: 0 auto 15px;
-  overflow: hidden;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto 15px;
+    overflow: hidden;
 }
 
 @media all and(min-width: 769px) {
 
-	.gallery {
-		width: 550px;
-  }
+    .gallery {
+        width: 550px;
+    }
 }
 
 @media all and(min-width: 1001px) {
 
-	.gallery {
-		float: left;
-    width: 46%;
-    
-		.picture {
-			width: auto;
-		}
-	}
+    .gallery {
+        float: left;
+        width: 46%;
+
+        .picture {
+            width: auto;
+        }
+    }
 }
