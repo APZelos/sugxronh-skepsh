@@ -2065,7 +2065,7 @@ a {
     line-height: 22px;
     color: #444; }
   .overview .value {
-    color: #444; }
+    color: #B71C1C; }
     .overview .value a {
       color: #B71C1C; }
       .overview .value a:hover {
@@ -2104,7 +2104,9 @@ a {
     .overview .availability .back-in-stock-subscription {
       display: inline-block; }
   .overview .additional-details {
-    margin: 0 0 20px; }
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #B71C1C; }
     .overview .additional-details div {
       margin: 0 0 8px; }
   .overview .delivery {
