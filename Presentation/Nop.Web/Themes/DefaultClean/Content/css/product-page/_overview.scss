@@ -252,3 +252,33 @@
         width: 52%;
     }
 }
+
+@media all and(min-width: 1367px) {
+    .overview {
+        .product-name {
+
+            h1 {
+                font-size: 54px;
+            }
+        }
+
+        .short-description {
+            line-height: 33px;
+            font-size: 27px;
+        }
+
+        .value {
+            font-size: 38px;
+        }
+
+        .prices {
+
+            > div {
+
+                > span {
+                    font-size: 54px;
+                }
+            }
+        }
+    }
+}
