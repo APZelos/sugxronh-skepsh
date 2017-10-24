@@ -2054,12 +2054,12 @@ a {
       color: #de444c; }
   .overview .product-name {
     margin: 0 0 25px;
-    border-bottom: 1px solid #ddd;
+    /*border-bottom: 1px solid $border_color;*/
     padding: 0 0 10px; }
     .overview .product-name h1 {
       color: #B71C1C;
       font-size: 30px;
-      font-weight: normal; }
+      font-weight: bold; }
   .overview .short-description {
     margin: 0 0 25px;
     line-height: 22px;
@@ -2094,7 +2094,8 @@ a {
   .overview .add-to-wishlist-button {
     background-image: url("../images/wishlist-button.png"); }
   .overview .manufacturers {
-    margin: 0 0 20px; }
+    margin: 0 0 20px;
+    font-size: 24px; }
   .overview .availability {
     margin: 0 0 20px;
     overflow: hidden; }
