@@ -1492,6 +1492,7 @@ a {
       margin: 0 5px;
       font-size: 24px;
       line-height: 32px; }
+    .breadcrumb li .current-item,
     .breadcrumb li .delimiter {
       color: #B71C1C; }
   .breadcrumb strong {
