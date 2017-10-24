@@ -2057,6 +2057,7 @@ a {
     border-bottom: 1px solid #ddd;
     padding: 0 0 10px; }
     .overview .product-name h1 {
+      color: #B71C1C;
       font-size: 30px;
       font-weight: normal; }
   .overview .short-description {
