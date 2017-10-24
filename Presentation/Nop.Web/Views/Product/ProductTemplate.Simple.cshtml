@@ -68,6 +68,8 @@
                                 @Model.Name
                             </h1>
                         </div>
+                        <!--manufacturers-->
+                        @Html.Partial("_ProductManufacturers", Model.ProductManufacturers)
                         @if (!String.IsNullOrEmpty(Model.ShortDescription))
                         {
                             <div class="short-description">
@@ -77,8 +79,6 @@
                         @Html.Widget("productdetails_overview_top", Model.Id)
                         <!--product reviews-->
                         @Html.Partial("_ProductReviewOverview", Model.ProductReviewOverview)
-                        <!--manufacturers-->
-                        @Html.Partial("_ProductManufacturers", Model.ProductManufacturers)
                         <!--availability-->
                         @Html.Partial("_Availability", Model)
                         <!--SKU, MAN, GTIN, vendor-->
