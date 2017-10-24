@@ -1690,7 +1690,7 @@ a {
         bottom: 0;
         left: 0;
         max-width: 100%;
-        max-height: 100%;
+        max-height: 95%;
         margin: 0 auto;
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
@@ -2009,7 +2009,8 @@ a {
       display: block;
       padding-top: 100%; }
     .gallery .picture img {
-      box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.16); }
+      box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.16);
+      max-height: 95%; }
   .gallery .picture-thumbs {
     overflow: hidden;
     font-size: 0; }
