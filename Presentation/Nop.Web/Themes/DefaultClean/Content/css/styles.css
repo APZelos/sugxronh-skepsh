@@ -2135,6 +2135,7 @@ a {
     .overview .prices > div {
       margin: 0 0 5px; }
       .overview .prices > div > span {
+        font-size: 30px;
         vertical-align: middle; }
   .overview .old-product-price,
   .overview .non-discounted-price {
