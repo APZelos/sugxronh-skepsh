@@ -1674,7 +1674,7 @@ a {
   .item-box .picture {
     z-index: 1;
     overflow: hidden;
-    background-color: #fff;
+    /*background-color: $white;*/
     margin: 0 0 20px; }
     .item-box .picture a {
       display: block;
