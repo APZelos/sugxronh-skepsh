@@ -2061,11 +2061,12 @@ a {
       color: #B71C1C;
       font-size: 30px;
       font-weight: bold; }
+  .overview .full-description,
   .overview .short-description {
     margin: 0 0 25px;
     line-height: 22px;
     color: #444;
-    font-size: 20px; }
+    font-size: 18px; }
   .overview .value {
     color: #B71C1C; }
     .overview .value a {
@@ -2205,9 +2206,10 @@ a {
 @media all and (min-width: 1367px) {
   .overview .product-name h1 {
     font-size: 54px; }
+  .overview .full-description,
   .overview .short-description {
     line-height: 33px;
-    font-size: 27px; }
+    font-size: 22px; }
   .overview .value {
     font-size: 38px; }
   .overview .prices > div > span {

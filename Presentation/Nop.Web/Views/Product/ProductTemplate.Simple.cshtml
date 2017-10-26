@@ -74,14 +74,20 @@
                             dataDictPrice.TemplateInfo.HtmlFieldPrefix = string.Format("price_{0}", Model.Id);
                             @Html.Partial("_ProductPrice", Model.ProductPrice, dataDictPrice)
                         }
+                        <!--product reviews-->
+                        @Html.Partial("_ProductReviewOverview", Model.ProductReviewOverview)
                         @if (!String.IsNullOrEmpty(Model.ShortDescription)) {
                             <div class="short-description">
                                 @Html.Raw(Model.ShortDescription)
                             </div>
                         }
+                        
+                        @if (!String.IsNullOrEmpty(Model.FullDescription)) {
+                            <div class="short-description" itemprop="description">
+                                @Html.Raw(Model.FullDescription)
+                            </div>
+                        }
                         @Html.Widget("productdetails_overview_top", Model.Id)
-                        <!--product reviews-->
-                        @Html.Partial("_ProductReviewOverview", Model.ProductReviewOverview)
                         <!--availability-->
                         @Html.Partial("_Availability", Model)
                         <!--delivery-->
@@ -129,11 +135,6 @@
                         @Html.Partial("_ShareButton", Model)
                         @Html.Widget("productdetails_overview_bottom", Model.Id)
                     </div>
-                    @if (!String.IsNullOrEmpty(Model.FullDescription)) {
-                        <div class="full-description" itemprop="description">
-                            @Html.Raw(Model.FullDescription)
-                        </div>
-                    }
                 </div>
                 @Html.Widget("productdetails_before_collateral", Model.Id)
                 <div class="product-collateral">
