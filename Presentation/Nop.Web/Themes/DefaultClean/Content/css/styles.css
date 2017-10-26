@@ -2211,7 +2211,8 @@ a {
   .overview .value {
     font-size: 38px; }
   .overview .prices > div > span {
-    font-size: 54px; } }
+    font-size: 54px;
+    font-weight: normal; } }
 
 .variant-overview {
   width: 100%; }
