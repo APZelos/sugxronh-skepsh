@@ -1005,7 +1005,7 @@
     <Content Include="Views\ExternalAuthentication\ExternalMethods.cshtml" />
     <Content Include="Views\Customer\_ExternalAuthentication.Errors.cshtml" />
     <Content Include="Views\Product\ProductTemplate.Grouped.cshtml" />
-    <Content Include="Views\Product\ProductTemplate.Simple.cshtml" />
+    <Content Include="Views\Product\ProductTemplate.Simple_Default.cshtml" />
     <Content Include="Views\Product\_ProductDetailsPictures.cshtml" />
     <Content Include="Views\Checkout\OnePageCheckout.cshtml" />
     <Content Include="Views\Checkout\OpcShippingMethods.cshtml" />
@@ -1206,6 +1206,7 @@
     <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_screen-reader.scss" />
     <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_stacked.scss" />
     <Content Include="Themes\DefaultClean\Content\font-awesome\scss\_variables.scss" />
+    <Content Include="Views\Product\ProductTemplate.Simple.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Plugins\bin\" />

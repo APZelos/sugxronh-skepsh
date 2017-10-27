@@ -41,6 +41,7 @@
         Html.AddHeadCustomParts("<meta property=\"twitter:url\" content=\"" + Request.Url.AbsoluteUri + "\" />");
     }
 }
+
 <!--product breadcrumb-->
 @section Breadcrumb
 {
@@ -53,9 +54,12 @@
         @using (Html.BeginRouteForm("Product", new { SeName = Model.SeName }, FormMethod.Post, new { id = "product-details-form" })) {
             <div itemscope itemtype="http://schema.org/Product" data-productid="@Model.Id">
                 <div class="product-essential">
-                    @Html.Widget("productdetails_before_pictures", Model.Id)
                     <!--product pictures-->
-                    @Html.Partial("_ProductDetailsPictures", Model)
+                    <div class="gallery">
+                        <div class="picture">
+                            <img alt="@Model.DefaultPictureModel.AlternateText" src="@Model.DefaultPictureModel.ImageUrl" title="@Model.DefaultPictureModel.Title" itemprop="image" id="main-product-img-@Model.Id" />
+                        </div>
+                    </div>
                     @Html.Widget("productdetails_after_pictures", Model.Id)
                     <div class="overview">
                         @Html.Partial("_Discontinued", Model)
@@ -81,7 +85,7 @@
                                 @Html.Raw(Model.ShortDescription)
                             </div>
                         }
-                        
+
                         @if (!String.IsNullOrEmpty(Model.FullDescription)) {
                             <div class="short-description" itemprop="description">
                                 @Html.Raw(Model.FullDescription)
